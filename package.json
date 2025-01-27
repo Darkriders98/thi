@@ -9,7 +9,7 @@
         "lint": "eslint --ext .mjs --ignore-path .gitignore ./",
         "lint:fix": "eslint --ext .mjs --ignore-path .gitignore ./ --fix",
         "postinstall": "npm run build:css && npm run build:db",
-        "watch": "less-watch-compiler less/ ./ dnd5e.less"
+        "watch": "less-watch-compiler less/ ./ thi.less"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.22.15",
