@@ -1,0 +1,7 @@
+{
+    "project": {
+        "type": "system",
+        "premium": false
+    },
+    "includes": ["LICENCE.txt", "README.md", "thi-compiled.mjs.map", "templates/"]
+}
