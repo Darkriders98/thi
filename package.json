@@ -1,14 +1,11 @@
 {
     "scripts": {
-        "build": "npm run build:code && npm run build:css && npm run build:db",
-        "build:clean": "node ./utils/packs.mjs package clean",
+        "build": "npm run build:code && npm run build:css",
         "build:code": "rollup thi.mjs -f es -o thi-compiled.mjs -p node-resolve -m --sourcemapFile thi.mjs",
         "build:css": "lessc less/thi.less thi.css",
-        "build:db": "node ./utils/packs.mjs package pack",
-        "build:json": "node ./utils/packs.mjs package unpack",
         "lint": "eslint --ext .mjs --ignore-path .gitignore ./",
         "lint:fix": "eslint --ext .mjs --ignore-path .gitignore ./ --fix",
-        "postinstall": "npm run build:css && npm run build:db",
+        "postinstall": "npm run build:css",
         "watch": "less-watch-compiler less/ ./ thi.less"
     },
     "devDependencies": {
