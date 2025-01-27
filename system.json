@@ -7,6 +7,9 @@
         "minimum": 12,
         "verified": 12
     },
+    "url": "https://github.com/Darkriders98/thi",
+    "manifest": "https://raw.githubusercontent.com/Darkriders98/thi/master/system.json",
+    "download": "https://github.com/Darkriders98/thi/releases/download/release-0.1.1/thi-release-0.1.1.zip",
     "authors": [
         {
             "name": "Darky",
