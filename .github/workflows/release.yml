@@ -49,6 +49,35 @@ jobs:
                 npm run build:code --if-present
                 mv --force thi-compiled.mjs thi.mjs
 
+        -   name: Determine archive contents
+            id: archive
+            uses: actions/github-script@v6
+            env:
+                ESMODULES: ${{ steps.manifest.outputs.esmodules }}
+                INCLUDES: ${{ steps.config.outputs.includes }}
+                LANGUAGES: ${{ steps.manifest.outputs.languages }}
+                PACKS: ${{ steps.manifest.outputs.packs }}
+                STYLES: ${{ steps.manifest.outputs.styles }}
+            with:
+                result-encoding: string
+                script: |
+                    const manifest = {};
+                    if ( process.env.ESMODULES ) manifest.esmodules = JSON.parse(process.env.ESMODULES);
+                    if ( process.env.INCLUDES ) manifest.includes = JSON.parse(process.env.INCLUDES);
+                    if ( process.env.LANGUAGES ) manifest.languages = JSON.parse(process.env.LANGUAGES);
+                    if ( process.env.PACKS ) manifest.packs = JSON.parse(process.env.PACKS);
+                    if ( process.env.STYLES ) manifest.styles = JSON.parse(process.env.STYLES);
+                    const includes = [
+                        "${{ env.PACKAGE_TYPE }}.json",
+                        ...(manifest.esmodules ?? []),
+                        ...(manifest.esmodules?.map(s => `${s}.map`) ?? []),
+                        ...(manifest.styles ?? []),
+                        ...(manifest.packs?.map(p => p.path) ?? []),
+                        ...(manifest.languages?.map(l => l.path) ?? []),
+                        ...(manifest.includes ?? [])
+                    ];
+                    return includes.join(" ");
+
         -   name: Zip package
             run: zip ${{ env.ZIP_NAME }} -r ${{ steps.archive.outputs.result }}
           
