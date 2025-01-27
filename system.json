@@ -1,0 +1,56 @@
+{
+    "id": "thi",
+    "title": "The Hidden Isle",
+    "description": "Implementation of the ttrpg the hidden isle",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": 12,
+        "verified": 12
+    },
+    "authors": [
+        {
+            "name": "Darky",
+            "discord": "darkrider98"
+        }
+    ],
+    "esmodules": [
+        "thi.mjs"
+    ],
+    "styles": [
+        "thi.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        }
+    ],
+    "socket": "true",
+    "documentTypes": {
+        "Actor": {
+            "agent": {
+                "htmlFields": [
+                    "identity.biography"
+                ]
+            }
+        }
+    },
+    "hotReload": {
+        "extensions": [
+            "css",
+            "hbs",
+            "json"
+        ],
+        "paths": [
+            "thi.css",
+            "templates",
+            "lang"
+        ]
+    }
+}

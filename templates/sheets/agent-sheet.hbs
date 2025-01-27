@@ -1,0 +1,24 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header">
+        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}"
+                placeholder="{{ localize 'Name' }}" /></h1>
+        <div class="right">
+            <h1>{{localize "THI.Identity.Label"}}</h1>
+            <p>{{localize "THI.Identity.Name"}}: {{actor.name}}</p>
+            <p>{{localize "THI.Identity.Age"}}: {{actor.system.age}}</p>
+            <p>{{localize "THI.Identity.Culture"}}: {{actor.system.culture}}</p>
+        </div>
+        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="256" width="256" />
+    </header>
+
+
+    <section class="sheet-body">
+        <div class="main-content">
+            
+        </div>
+    </section>
+
+    <section class="capacities">
+        <h2>Here lies the capacities</h2>
+    </section>
+</form>

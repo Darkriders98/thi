@@ -1,0 +1,38 @@
+{
+    "THI": {
+        "Title": "The Hidden Isle",
+        "Identity": {
+            "Label": "Identity",
+            "Biography": "Biography",
+            "Name": "Name",
+            "Age": "Age",
+            "Culture": "Culture"
+        },
+        "SkillFamily": {
+            "Sword": {
+                "Label": "Sword",
+                "Skirmirsh": "Skirmirsh",
+                "Convince" : "Convince",
+                "Study": "Study"
+            },
+            "Wand": {
+                "Label": "Wand",
+                "Unleash": "Unleash",
+                "Perform": "Perform",
+                "Channel": "Channel"
+            },
+            "Cup": {
+                "Label": "Cup",
+                "Slip": "Slip",
+                "Soothe": "Soothe",
+                "Mingle": "Mingle"
+            },
+            "Pentacle": {
+                "Label": "Pentacle",
+                "Finesse": "Finesse",
+                "Bargain": "Bargain",
+                "Survey": "Survey"
+            }
+        }
+    }
+}

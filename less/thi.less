@@ -1,0 +1,13 @@
+:root {
+    --color-test-dark-primary: #191813;
+    --color-test-dark-inactive: #7a7971;   
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(6, var(--width));
+    grid-auto-rows: var(--height);
+    transform-style: preserve-3d;
+    position: relative;
+    transform: perspective(1000px)
+}

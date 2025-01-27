@@ -1,0 +1,38 @@
+{
+    "THI": {
+        "Title": "The Hidden Isle",
+        "Identity": {
+            "Label": "Identité",
+            "Biography": "Biographie",
+            "Name": "Nom",
+            "Age": "Âge",
+            "Culture": "Culture"
+        },
+        "SkillFamily": {
+            "Sword": {
+                "Label": "Épée",
+                "Skirmirsh": "Escarmouche",
+                "Convince" : "Éloquence",
+                "Study": "Étude"
+            },
+            "Wand": {
+                "Label": "Bâton",
+                "Unleash": "Déchainement",
+                "Perform": "Interprétation",
+                "Channel": "Captation"
+            },
+            "Cup": {
+                "Label": "Coupe",
+                "Slip": "Faufilement",
+                "Soothe": "Appaisement",
+                "Mingle": "Assimilation"
+            },
+            "Pentacle": {
+                "Label": "Pentacle",
+                "Finesse": "Subtilité",
+                "Bargain": "Marchandage",
+                "Survey": "Sondage"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "npm run build:css",
+        "build:css": "lessc less/thi.less thi.css"
+    },
+    "devDependencies": {
+        "less": "^4.2.2",
+        "less-watch-compiler": "^1.16.3"
+    }
+}
