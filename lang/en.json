@@ -1,6 +1,8 @@
 {
     "THI": {
         "Title": "The Hidden Isle",
+        "XP": "XP",
+        "Harm": "Harm",
         "Identity": {
             "Label": "Identity",
             "Biography": "Biography",

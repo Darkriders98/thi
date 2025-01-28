@@ -36,3 +36,18 @@ export function performPreLocalization(config) {
         if (settings.sort) foundry.utils.setProperty(config, keyPath, sortObjectEntries(target, settings.keys[0]));
     }
 }
+
+
+/**
+ * Register custom handlebars helpers
+ */
+export function registerHandlebarsHelpers() {
+    Handlebars.registerHelper({
+        "defineLabel": defineLabel
+    })
+}
+
+function defineLabel(family, skill) {
+    let localizeString = "actor.system.skillFamilies." + family + "." + skill + ".label"
+    return game.i18n.localize(localizeString);
+}
