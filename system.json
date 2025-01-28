@@ -2,14 +2,14 @@
     "id": "thi",
     "title": "The Hidden Isle",
     "description": "Implementation of the ttrpg the hidden isle",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "compatibility": {
         "minimum": 12,
         "verified": 12
     },
     "url": "https://github.com/Darkriders98/thi",
     "manifest": "https://raw.githubusercontent.com/Darkriders98/thi/master/system.json",
-    "download": "https://github.com/Darkriders98/thi/releases/download/release-0.1.1/thi-release-0.1.1.zip",
+    "download": "https://github.com/Darkriders98/thi/releases/download/release-0.1.2/thi-release-0.1.2.zip",
     "authors": [
         {
             "name": "Darky",
