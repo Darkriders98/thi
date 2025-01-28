@@ -47,7 +47,11 @@ export function registerHandlebarsHelpers() {
     })
 }
 
+function capitalizeFirstLetter(val) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 function defineLabel(family, skill) {
-    let localizeString = "actor.system.skillFamilies." + family + "." + skill + ".label"
+    let localizeString = "THI.SkillFamily." + capitalizeFirstLetter(family) + "." + capitalizeFirstLetter(skill);
     return game.i18n.localize(localizeString);
 }
