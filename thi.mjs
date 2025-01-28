@@ -10,7 +10,6 @@ Hooks.on("init", function () {
 
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("thi", THIActorSheet, {
-        types: "agent",
         makeDefault: true
     });
 
