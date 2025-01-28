@@ -8,12 +8,22 @@
         display: flex;
     }
     .sheet-body{
+        display: flex;
         .main-content{
             .abilities{
-                display: grid;
                 flex-direction: row;
-                grid-auto-columns: 150;
-                grid-auto-rows: 200;
+                .ability-data{
+                    flex-direction: column;
+                    .ability-skills{
+                        flex-direction: row;
+                        .skill-container{
+                            flex-direction: column;
+                        }
+                    }
+                    .ability-filling{
+                        flex-direction: row;
+                    }
+                }
             }
         }
     }
