@@ -13,7 +13,7 @@
         "SkillFamily": {
             "Sword": {
                 "Label": "Sword",
-                "Skirmirsh": "Skirmirsh",
+                "Skirmish": "Skirmish",
                 "Convince" : "Convince",
                 "Study": "Study"
             },

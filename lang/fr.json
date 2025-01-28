@@ -11,7 +11,7 @@
         "SkillFamily": {
             "Sword": {
                 "Label": "Épée",
-                "Skirmirsh": "Escarmouche",
+                "Skirmish": "Escarmouche",
                 "Convince" : "Éloquence",
                 "Study": "Étude"
             },
