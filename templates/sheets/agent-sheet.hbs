@@ -1,3 +1,22 @@
+{{!-- Components --}}
+{{#*inline "ability-data"}}
+    <div class="ability-data" data-ability="{{ label }}">
+        <ul class="ability-skills">
+            {{#each skills}}
+                <li class="skill-{{ @key }}">
+                    <div class="{{ @key }}-affinity"><input name="this.affinity" type="text" value="{{ this.affinity }}" data-dtype="Number" /></div>
+                    <div class="{{ @key }}-label">{{localize this.label}}</div>
+                </li>
+            {{/each}}
+        </ul>
+        <ul class="ability-filling">
+            <li class="ability-xp" data-ability="{{ xp }}"><input name="xp" type="text" value="{{ xp }}" data-dtype="Number"/></li>
+            <li class="ability-harm" data-ability="{{ harm }}"><input name="harm" type="text" value="{{ harm }}" data-dtype="Number"/></li>
+        </ul>
+    </div>
+{{/inline}}
+
+
 <form class="{{cssClass}} flexcol" autocomplete="off">
     <header class="sheet-header">
         <h1 class="charname"><input name="name" type="text" value="{{actor.name}}"
@@ -8,13 +27,17 @@
             <p>{{localize "THI.Identity.Age"}}: {{actor.system.age}}</p>
             <p>{{localize "THI.Identity.Culture"}}: {{actor.system.culture}}</p>
         </div>
-        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="256" width="256" />
+        <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
     </header>
 
 
     <section class="sheet-body">
         <div class="main-content">
-            
+            <div class="abilities">
+                {{#each skillFamilies}}
+                    {{> ability-data }}
+                {{/each}}
+            </div>
         </div>
     </section>
 

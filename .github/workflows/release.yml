@@ -164,4 +164,5 @@ jobs:
                 tag: ${{ env.TAG_NAME }}
                 body: |
                     ${{ steps.release.outputs.body }}
+                    
                     **Installation:** To manually install this release, please use the following manifest URL: ${{ env.RELEASE_INSTALL_URL }}
