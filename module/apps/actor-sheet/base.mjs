@@ -44,14 +44,14 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
      * The mode the sheet is currently in.
      * @type {ActorSheetV2.MODES}
      */
-    #mode = DrawSteelActorSheet.MODES.PLAY;
+    #mode = THIActorSheet.MODES.PLAY;
 
     /**
      * Is this sheet in Play Mode?
      * @returns {boolean}
      */
     get isPlayMode() {
-        return this.#mode === DrawSteelActorSheet.MODES.PLAY;
+        return this.#mode === THIActorSheet.MODES.PLAY;
     }
 
     /**
@@ -59,7 +59,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
      * @returns {boolean}
      */
     get isEditMode() {
-        return this.#mode === DrawSteelActorSheet.MODES.EDIT;
+        return this.#mode === THIActorSheet.MODES.EDIT;
     }
 
     /** @override */
@@ -130,7 +130,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Handle changing a Document's image.
      * TODO: Copied from v13 implementation, can be removed after
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} _event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @returns {Promise}
@@ -164,7 +164,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Toggle Edit vs. Play mode
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      */
@@ -173,14 +173,14 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
             console.error("You can't switch to Edit mode if the sheet is uneditable");
             return;
         }
-        this.#mode = this.isPlayMode ? DrawSteelActorSheet.MODES.EDIT : DrawSteelActorSheet.MODES.PLAY;
+        this.#mode = this.isPlayMode ? THIActorSheet.MODES.EDIT : THIActorSheet.MODES.PLAY;
         this.render();
     }
 
     /**
      * Renders an embedded document's sheet
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @protected
@@ -193,7 +193,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Handles item deletion
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @protected
@@ -206,7 +206,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Handle creating a new Owned Item or ActiveEffect for the actor using initial data defined in the HTML dataset
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @private
@@ -230,7 +230,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Determines effect parent to pass to helper
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @private
@@ -243,7 +243,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Handle clickable rolls.
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @protected
@@ -262,7 +262,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
     /**
      * Handle clickable rolls.
      *
-     * @this DrawSteelActorSheet
+     * @this THIActorSheet
      * @param {PointerEvent} event   The originating click event
      * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
      * @protected

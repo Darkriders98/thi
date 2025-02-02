@@ -50,7 +50,7 @@ export class THIItemSheet extends api.HandlebarsApplicationMixin(sheets.ItemShee
      * @returns {boolean}
      */
     get isPlayMode() {
-        return this.#mode === DrawSteelItemSheet.MODES.PLAY;
+        return this.#mode === THIItemSheet.MODES.PLAY;
     }
 
     /**
@@ -58,8 +58,8 @@ export class THIItemSheet extends api.HandlebarsApplicationMixin(sheets.ItemShee
      * @returns {boolean}
      */
     get isEditMode() {
-        return this.#mode === DrawSteelItemSheet.MODES.EDIT;
+        return this.#mode === THIItemSheet.MODES.EDIT;
     }
 
-    
+
 }
