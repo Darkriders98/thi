@@ -1,6 +1,6 @@
 const { HTMLField, SchemaField, NumberField, StringField, FilePathField, ArrayField, BooleanField } = foundry.data.fields;
 
-export class BaseActorModel extends foundry.abstract.TypeDataModel {
+export default class BaseActorModel extends foundry.abstract.TypeDataModel {
     /**
      * Key information about this Actor subtype
      */

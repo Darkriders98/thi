@@ -5,7 +5,7 @@ const { HTMLField, SchemaField, NumberField, StringField, FilePathField, ArrayFi
 
 
 // Data models declaration
-export class AgentDataModel extends BaseActorModel {
+export default class AgentDataModel extends BaseActorModel {
     /** @override */
     static metadata = Object.freeze({
         type: "agent"
