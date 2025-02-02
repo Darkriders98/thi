@@ -7,7 +7,7 @@ function defineNumberField(maxNumber) {
         integer: true,
         nullable: false,
         min: 0,
-        intial: 0,
+        initial: 0,
         max: maxNumber
     })
 }
