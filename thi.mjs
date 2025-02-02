@@ -1,26 +1,44 @@
-import { AgentDataModel } from "./module/data-models.mjs";
+import * as documents from "./module/documents/_module.mjs";
 import { THIActorSheet } from "./module/sheets/actor-sheet.mjs";
-import { THIActor } from "./module/documents/actor.mjs";
-import { THI } from "./module/config.mjs";
 import * as utils from "./module/utils.mjs";
+import * as data from "./module/data/_module.mjs";
+import { THI } from "./module/config.mjs";
+import * as THI_CONST from "./module/constants.mjs";
+
+globalThis.thi = {
+    documents,
+    utils,
+    data,
+    CONST: THI_CONST,
+    CONFIG: THI
+}
 
 Hooks.on("init", function () {
     console.log(`THE HIDDEN ISLE | Initializing The Hidden Isle game system`)
 
     CONFIG.THI = THI;
 
-    CONFIG.Actor.documentClass = THIActor;
+    // Assign document classes
+    for (const docCls of Object.values(documents)) {
+        if (!foundry.utils.isSubclass(docCls, foundry.abstract.Document)) continue;
+        CONFIG[docCls.documentName].documentClass = docCls;
+    }
+
+    // Assign data models & setup templates
+    for (const [doc, models] of Object.entries(data)) {
+        if (!CONST.ALL_DOCUMENT_TYPES.includes(doc)) continue;
+        for (const modelCls of Object.values(models)) {
+            if (modelCls.metadata?.type) CONFIG[doc].dataModels[modelCls.metadata.type] = modelCls;
+            if (modelCls.metadata?.detailsPartial) templates.push(...modelCls.metadata.detailsPartial);
+        }
+    };
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("thi", THIActorSheet, {
+    Actors.registerSheet(THI_CONST.systemID, THIActorSheet, {
+        types: ["agent"],
         makeDefault: true,
         label: "THI.SheetLabels.Actor"
     });
-
-    // Configure system data models
-    CONFIG.Actor.dataModels = {
-        agent: AgentDataModel
-    };
 
     // Preload Handlebars helpers
     utils.registerHandlebarsHelpers();
@@ -29,3 +47,11 @@ Hooks.on("init", function () {
 Hooks.on("i18nInit", function () {
     utils.performPreLocalization(CONFIG.THI);
 })
+
+Hooks.on("ready", async function (){
+    await data.migrations.migrateWorld();
+
+    Hooks.callAll("thi.ready");
+    console.log(THI_CONST.ASCII);
+})
+

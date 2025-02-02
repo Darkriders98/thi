@@ -2,21 +2,21 @@
 {{#*inline "ability-data"}}
 <div class="ability-data-{{@key}}">
     <div class="ability-skills grid grid-3col">
-        {{#each skills as | skill |}}
+        {{#each skills}}
         <div class="skill-container flexcol flex-group-center">
             <span class="skill-affinity"><input name="system.skillFamilies.{{ @...key }}.{{ @key }}" type="number"
-                    value="{{ skill.affinity }}" data-dtype="Number" />
+                    value="{{ affinity }}" data-dtype="Number" />
             </span>
             <span class="skill-label">{{defineLabel @...key @key }}</span>
         </div>
         {{/each}}
     </div>
-    <div class="ability-filling">
-        <div class="ability-xp">
+    <div class="ability-filling grid grid-2col">
+        <div class="ability-xp flexcol flex-group-center">
             <input name="actor.system.skillFamilies.{{@key}}.xp" type="number" value="{{ xp }}" data-dtype="Number" />
             <div>{{localize "THI.XP"}}</div>
         </div>
-        <div class="ability-harm">
+        <div class="ability-harm flexcol flex-group-center">
             <input name="actor.system.skillFamilies.{{@key}}.harm" type="number" value="{{ harm }}"
                 data-dtype="Number" />
             <div>{{localize "THI.Harm"}}</div>
@@ -38,7 +38,6 @@
         </div>
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
     </header>
-
 
     <section class="sheet-body">
         <div class="main-content">

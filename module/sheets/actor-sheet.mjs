@@ -1,10 +1,12 @@
+const {api, sheets} = foundry.applications;
+
 /**
  * Extend the basic ActorSheet
  * @extends {ActorSheet}
  */
-export class THIActorSheet extends ActorSheet {
+export class THIActorSheet extends api.HandlebarsApplicationMixin(sheets.ActorSheetV2) {
 
-    static get defaultOptions(){
+    static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["sheet", "actor"],
             width: 600,
@@ -16,7 +18,7 @@ export class THIActorSheet extends ActorSheet {
         return `systems/thi/templates/sheets/actor/${this.actor.type}-sheet.hbs`;
     }
 
-    getData(){
+    getData() {
         const context = super.getData();
         const actorData = context.data;
 
@@ -27,9 +29,15 @@ export class THIActorSheet extends ActorSheet {
         return context;
     }
 
-    activateListeners(html){
+    activateListeners(html) {
         super.activateListeners(html);
 
+        if (this.actor.type == 'agent') {
+            this._activateAgentListeners(html);
+        }
+    }
+
+    _activateAgentListeners(html) {
         html.on('click', '.skill-affinity', (ev) => {
             console.log("Hello world")
         })
