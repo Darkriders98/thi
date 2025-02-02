@@ -1,0 +1,13 @@
+<header class="sheet-header">
+    <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'Name' }}" />
+    </h1>
+    <div class="right">
+        <h1>{{localize "THI.Identity.Label"}}</h1>
+        <p>{{localize "THI.Identity.Name"}}: {{actor.name}}</p>
+        <p>{{localize "THI.Identity.Age"}}: {{actor.system.age}}</p>
+        <p>{{localize "THI.Identity.Culture"}}: {{actor.system.culture}}</p>
+    </div>
+    <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}" data-edit="img" {{#if isPlay}}
+        data-action="showPortraitArtwork" {{else}} {{! eslint-disable-next-line @html-eslint/no-duplicate-attrs }}
+        data-action="editImage" {{/if}} title="{{actor.name}}" height="100" width="100" />
+</header>

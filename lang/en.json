@@ -1,8 +1,12 @@
 {
     "THI": {
-        "SheetLabels": {
-            "Actor": "The Hidden Isle Actor Sheet",
-            "Item": "The Hidden Isle Item Sheet"
+        "Sheet": {
+            "Labels": {
+                "Actor": "The Hidden Isle Actor Sheet",
+                "Item": "The Hidden Isle Item Sheet"
+            },
+            "Play": "Display",
+            "Edit": "Edit"
         },
         "Title": "The Hidden Isle",
         "XP": "XP",
@@ -39,6 +43,14 @@
                 "Bargain": "Bargain",
                 "Survey": "Survey"
             }
+        }
+    },
+    "TYPES": {
+        "Actor": {
+            "agent": "Agent"
+        },
+        "Item": {
+            "class": "Class"
         }
     }
 }

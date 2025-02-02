@@ -1,10 +1,16 @@
 {
     "THI": {
-        "SheetLabels": {
-            "Actor": "Fiche d'acteur de The Hidden Isle",
-            "Item": "Fiche d'objet de The Hidden Isle"
+        "Sheet": {
+            "Labels": {
+                "Actor": "Fiche d'acteur de The Hidden Isle",
+                "Item": "Fiche d'objet de The Hidden Isle"
+            },
+            "Play": "Affichage",
+            "Edit": "Édition"
         },
         "Title": "The Hidden Isle",
+        "XP": "XP",
+        "Harm": "Blessure",
         "Identity": {
             "Label": "Identité",
             "Biography": "Biographie",
@@ -37,6 +43,14 @@
                 "Bargain": "Marchandage",
                 "Survey": "Sondage"
             }
+        }
+    },
+    "TYPES": {
+        "Actor": {
+            "agent": "Agent"
+        },
+        "Item": {
+            "class": "Classe"
         }
     }
 }

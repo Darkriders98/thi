@@ -1,5 +1,5 @@
 import * as documents from "./module/documents/_module.mjs";
-import { THIActorSheet } from "./module/sheets/actor-sheet.mjs";
+import { THIAgentSheet } from "./module/apps/actor-sheet/agent.mjs";
 import * as utils from "./module/utils.mjs";
 import * as data from "./module/data/_module.mjs";
 import { THI } from "./module/config.mjs";
@@ -34,7 +34,7 @@ Hooks.on("init", function () {
     };
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet(THI_CONST.systemID, THIActorSheet, {
+    Actors.registerSheet(THI_CONST.systemID, THIAgentSheet, {
         types: ["agent"],
         makeDefault: true,
         label: "THI.SheetLabels.Actor"
