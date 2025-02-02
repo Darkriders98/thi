@@ -94,8 +94,7 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
             tabs: this._getTabs(options.parts),
             // Necessary for formInput and formFields helpers
             fields: this.document.schema.fields,
-            systemFields: this.document.system.schema.fields,
-            datasets: this._getDatasets()
+            systemFields: this.document.system.schema.fields
         };
 
         return context;
@@ -275,5 +274,47 @@ export default class THIActorSheet extends api.HandlebarsApplicationMixin(sheets
         }
         await item.system.use({ event });
     }
+
+    /**
+     * Generates the data for the generic tab navigation template
+     * @param {string[]} parts An array of named template parts to render
+     * @returns {Record<string, Partial<ApplicationTab>>}
+     * @protected
+     */
+    _getTabs(parts) {
+        // If you have sub-tabs this is necessary to change
+        const tabGroup = "primary";
+        // Default tab for first time it's rendered this session
+        if (!this.tabGroups[tabGroup]) this.tabGroups[tabGroup] = this.document.limited ? "identity" : "stats";
+        return parts.reduce((tabs, partId) => {
+            const tab = {
+                cssClass: "",
+                group: tabGroup,
+                // Matches tab property to
+                id: "",
+                // FontAwesome Icon, if you so choose
+                icon: "",
+                // Run through localization
+                label: "THI.Actor.Tabs."
+            };
+            switch (partId) {
+                case "header":
+                case "tabs":
+                    return tabs;
+                case "identity":
+                    tab.id = "identity";
+                    tab.label += "Identity";
+                    break;
+                case "stats":
+                    tab.id = "stats";
+                    tab.label += "Stats";
+                    break;
+            }
+            if (this.tabGroups[tabGroup] === tab.id) tab.cssClass = "active";
+            tabs[partId] = tab;
+            return tabs;
+        }, {});
+    }
+
 
 }

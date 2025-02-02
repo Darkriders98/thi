@@ -8,6 +8,12 @@
             "Play": "Display",
             "Edit": "Edit"
         },
+        "Actor": {
+            "Tabs": {
+                "Identity": "Identity",
+                "Stats": "Stats"
+            }
+        },
         "Title": "The Hidden Isle",
         "XP": "XP",
         "Harm": "Harm",
