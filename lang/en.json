@@ -1,5 +1,9 @@
 {
     "THI": {
+        "SheetLabels": {
+            "Actor": "The Hidden Isle Actor Sheet",
+            "Item": "The Hidden Isle Item Sheet"
+        },
         "Title": "The Hidden Isle",
         "XP": "XP",
         "Harm": "Harm",

@@ -1,5 +1,9 @@
 {
     "THI": {
+        "SheetLabels": {
+            "Actor": "Fiche d'acteur de The Hidden Isle",
+            "Item": "Fiche d'objet de The Hidden Isle"
+        },
         "Title": "The Hidden Isle",
         "Identity": {
             "Label": "Identité",
@@ -12,7 +16,7 @@
             "Sword": {
                 "Label": "Épée",
                 "Skirmish": "Escarmouche",
-                "Convince" : "Éloquence",
+                "Convince": "Éloquence",
                 "Study": "Étude"
             },
             "Wand": {

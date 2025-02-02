@@ -1,22 +1,24 @@
 {{!-- Components --}}
 {{#*inline "ability-data"}}
 <div class="ability-data-{{@key}}">
-    <div class="ability-skills">
-        {{#each skills}}
-        <div class="skill-container">
-            <div class="{{ @key }}-affinity"><input name="actor.system.skillFamilies.{{ @...key }}.{{ @key }}"
-                    type="text" value="{{ affinity }}" data-dtype="Number" /></div>
-            <div class="{{ @key }}-label">{{defineLabel @...key @key }}</div>
+    <div class="ability-skills grid grid-3col">
+        {{#each skills as skill}}
+        <div class="skill-container flexcol flex-group-center">
+            <span class="skill-affinity"><input name="system.skillFamilies.{{ @...key }}.{{ @key }}" type="number"
+                    value="{{ skill.affinity }}" data-dtype="Number" />
+            </span>
+            <span class="skill-label">{{defineLabel @...key @key }}</span>
         </div>
         {{/each}}
     </div>
     <div class="ability-filling">
         <div class="ability-xp">
-            <input name="actor.system.skillFamilies.{{@key}}.xp" type="text" value="{{ xp }}" data-dtype="Number" />
+            <input name="actor.system.skillFamilies.{{@key}}.xp" type="number" value="{{ xp }}" data-dtype="Number" />
             <div>{{localize "THI.XP"}}</div>
         </div>
         <div class="ability-harm">
-            <input name="actor.system.skillFamilies.{{@key}}.harm" type="text" value="{{ harm }}" data-dtype="Number" />
+            <input name="actor.system.skillFamilies.{{@key}}.harm" type="number" value="{{ harm }}"
+                data-dtype="Number" />
             <div>{{localize "THI.Harm"}}</div>
         </div>
     </div>
@@ -40,7 +42,7 @@
 
     <section class="sheet-body">
         <div class="main-content">
-            <div class="abilities">
+            <div class="abilities grid grid-4col">
                 {{#each actor.system.skillFamilies}}
                 {{> ability-data }}
                 {{/each}}

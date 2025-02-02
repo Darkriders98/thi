@@ -1,31 +1,6 @@
-:root {
-    --color-test-dark-primary: #191813;
-    --color-test-dark-inactive: #7a7971;   
-}
+/* Common styles */
+@import 'variables.less';
 
-.sheet{
-    form {
-        display: flex;
-    }
-    .sheet-body{
-        display: flex;
-        .main-content{
-            .abilities{
-                flex-direction: row;
-                .ability-data{
-                    flex-direction: column;
-                    .ability-skills{
-                        flex-direction: row;
-                        .skill-container{
-                            flex-direction: column;
-                        }
-                    }
-                    .ability-filling{
-                        flex-direction: row;
-                    }
-                }
-            }
-        }
-    }
-}
-
+/* General styles */
+@import 'global/grid.less';
+@import 'global/flex.less';

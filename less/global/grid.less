@@ -1,0 +1,21 @@
+// Grid.
+@col: range(2;12);
+
+.grid {
+  display: grid;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 0;
+  each(@col, {
+       &-@{value}col{
+         grid-column: span @value / span @value;
+         grid-template-columns: repeat(@value, minmax(0, 1fr))
+       }
+  })
+}
+
+// grid offset
+each(@col, {
+  .grid-start-@{value}{grid-column-start: @value}
+  .grid-span-@{value}{grid-column-end: span @value}
+})

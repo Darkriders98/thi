@@ -1,5 +1,18 @@
 const { HTMLField, SchemaField, NumberField, StringField, FilePathField, ArrayField, BooleanField } = foundry.data.fields;
 
+// Utils functions
+function defineNumberField(maxNumber) {
+    return new NumberField({
+        required: true,
+        integer: true,
+        nullable: false,
+        min: 0,
+        intial: 0,
+        max: maxNumber
+    })
+}
+
+// Data models declaration
 export class AgentDataModel extends foundry.abstract.TypeDataModel {
     
     static defineSchema() {
@@ -51,14 +64,4 @@ export class AgentDataModel extends foundry.abstract.TypeDataModel {
             abilities: new ArrayField(new StringField())
         };
     }
-}
-
-function defineNumberField(maxNumber) {
-    return new NumberField({
-        required: true,
-        integer: true,
-        min: 0,
-        intial: 0,
-        max: maxNumber
-    })
 }
