@@ -5,7 +5,7 @@
 export class THIActorSheet extends ActorSheet {
 
     static get defaultOptions(){
-        return foundry.utils.mergeObjects(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["sheet", "actor"],
             width: 600,
             height: 600
