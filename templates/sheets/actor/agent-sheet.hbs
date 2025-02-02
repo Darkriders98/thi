@@ -2,7 +2,7 @@
 {{#*inline "ability-data"}}
 <div class="ability-data-{{@key}}">
     <div class="ability-skills grid grid-3col">
-        {{#each skills as skill}}
+        {{#each skills as | skill |}}
         <div class="skill-container flexcol flex-group-center">
             <span class="skill-affinity"><input name="system.skillFamilies.{{ @...key }}.{{ @key }}" type="number"
                     value="{{ skill.affinity }}" data-dtype="Number" />
