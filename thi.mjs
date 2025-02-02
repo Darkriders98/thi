@@ -1,5 +1,5 @@
 import * as documents from "./module/documents/_module.mjs";
-import { THIAgentSheet } from "./module/apps/actor-sheet/agent.mjs";
+import * as applications from "./module/apps/_module.mjs";
 import * as utils from "./module/utils.mjs";
 import * as data from "./module/data/_module.mjs";
 import { THI } from "./module/config.mjs";
@@ -7,6 +7,7 @@ import * as THI_CONST from "./module/constants.mjs";
 
 globalThis.thi = {
     documents,
+    applications,
     utils,
     data,
     CONST: THI_CONST,
@@ -34,11 +35,17 @@ Hooks.on("init", function () {
     };
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet(THI_CONST.systemID, THIAgentSheet, {
+    Actors.registerSheet(THI_CONST.systemID, applications.THIAgentSheet, {
         types: ["agent"],
         makeDefault: true,
-        label: "THI.SheetLabels.Actor"
+        label: "THI.Sheet.Labels.Actor"
     });
+
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet(THI_CONST.systemID, applications.THIItemSheet, {
+        makeDefault: true,
+        label: "THI.Sheet.Labels.Item"
+    })
 
     // Preload Handlebars helpers
     utils.registerHandlebarsHelpers();
