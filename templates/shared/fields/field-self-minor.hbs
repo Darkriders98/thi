@@ -1,0 +1,21 @@
+<fieldset>
+  <legend>{{legend}}</legend>
+  {{#with fields.[0]}}
+    <div>
+      {{#if @root.editable}}
+        {{formGroup field value=value}}
+      {{else}}
+        {{> thi.field-xp max=field.max value=value}}
+      {{/if}}
+    </div>
+  {{/with}}
+  {{#with fields.[1]}}
+    <div class="name">
+      {{#if @root.editable}}
+        {{formGroup field value=value}}
+      {{else}}
+        {{value}}
+      {{/if}}
+    </div>
+  {{/with}}
+</fieldset>

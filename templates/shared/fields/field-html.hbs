@@ -1,0 +1,8 @@
+<fieldset class="{{field.name}}">
+  <legend>{{field.label}}</legend>
+  {{#if @root.editable}}
+    {{formGroup field value=value}}
+  {{else}}
+    {{{value}}}
+  {{/if}}
+</fieldset>

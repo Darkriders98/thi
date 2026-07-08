@@ -1,0 +1,83 @@
+<section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="inventory">
+  <div class="flexcol">
+    {{#with field.fields.[0]}}
+      <fieldset class="{{field.name}}">
+        <legend>{{field.label}}</legend>
+        {{#if @root.editable}}
+          {{formGroup field value=value max=field.max}}
+        {{else}}
+          {{#times field.max}}
+            <span {{#if (gt ../value this)}}class="filled" {{/if}}></span>
+          {{/times}}
+        {{/if}}
+      </fieldset>
+    {{/with}}
+    <div class="agent-item {{#if @root.editable}}flexcol{{else}}flexrow{{/if}}">
+      {{#with field.fields.[1]}}
+        <fieldset class="{{field.name}}">
+          <legend>{{field.label}}</legend>
+          <ul class="items">
+            {{#each value}}
+              {{> thi.field-item field=../field.element directlyEditable=true}}
+            {{/each}}
+          </ul>
+          {{#if @root.editable}}
+            <button class="item" type="button" data-action="addItem" data-path="system.inventory.baseItems">
+              <i class="{{localize 'ICONS.Add'}}" inert></i>
+              {{localize 'DOCUMENT.AgentItem.Add'}}
+            </button>
+          {{/if}}
+        </fieldset>
+      {{/with}}
+      {{#if (ne class undefined)}}
+        <fieldset class="classItems">
+          <legend>{{localize 'THI.Agent.FIELDS.inventory.classItems'}}</legend>
+          <ul class="items">
+            {{#each class.system.items}}
+              {{> thi.field-item field=../class.system.schema.fields.items.element directlyEditable=false}}
+            {{/each}}
+          </ul>
+        </fieldset>
+      {{/if}}
+    </div>
+    {{#with field.fields.[2]}}
+      {{#unless (empty value)}}
+        <fieldset class="customItems">
+          <legend>{{localize 'THI.Agent.FIELDS.inventory.customItems'}}</legend>
+          <ul class="items">
+            {{#each value}}
+              {{> thi.field-item field=../field.element directlyEditable=true}}
+            {{/each}}
+          </ul>
+        </fieldset>
+      {{/unless}}
+    {{/with}}
+    <hr>
+    <button class="item" type="button" data-action="addItem" data-path="system.inventory.baseItems">
+      <i class="{{localize 'ICONS.Add'}}" inert></i>
+      {{localize 'DOCUMENT.AgentItem.AddCustom'}}
+    </button>
+  </div>
+  {{#with field.fields.[3]}}
+    <fieldset class="{{field.name}}" data-field-path="{{field.fieldPath}}">
+      <legend>{{field.label}}</legend>
+      <button class="clock" type="button" data-action="addClock">
+        <i class="{{localize 'ICONS.Clock'}}" inert></i>
+        {{localize 'DOCUMENT.Clocks.Add.Button'}}
+      </button>
+      {{#each value as |clock|}}
+        <hr>
+        <div class="clock flexrow" data-id="{{@key}}">
+          <img class="clock" width="80px" height="80px" style='--url: url("ui/{{max}}-quarter-circle.svg")'
+            data-fill={{progress}} data-max={{max}} data-action="updateClock">
+          <label>{{name}}</label>
+          {{#if @root.editable}}
+            <a title="{{localize 'DOCUMENT.Delete' type=name}}" data-action="removeClock">
+              <i class="{{localize 'ICONS.Delete'}}"></i>
+            </a>
+          {{/if}}
+        </div>
+      {{/each}}
+    </fieldset>
+  {{/with}}
+</section>

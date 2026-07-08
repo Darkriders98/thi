@@ -1,0 +1,10 @@
+<fieldset>
+  <legend>{{localize 'THI.SkillCheck.CheckConfiguration.CoreLegend'}}</legend>
+  {{#each fields}}
+    {{#if (or options (eq name "customMod"))}}
+      {{formField field name=name value=value options=options input=input}}
+    {{else}}
+      {{formField field disabled=true}}
+    {{/if}}
+  {{/each}}
+</fieldset>

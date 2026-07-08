@@ -1,0 +1,11 @@
+<div class="harm">
+  {{#if @root.editable}}
+    {{formGroup field value=value localize=true}}
+  {{else}}
+    <span {{#if (ne value "none")}}class="filled" {{/if}}data-action="getHarm" data-path="{{field.fieldPath}}">
+      {{#if (ne value "none")}}
+        <span class="abbr">{{lookup (lookup field.choices value) "abbr"}}</span>
+      {{/if}}
+    </span>
+  {{/if}}
+</div>

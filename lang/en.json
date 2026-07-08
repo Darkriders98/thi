@@ -1,0 +1,563 @@
+{
+  "CARDS": {
+    "CardsFortuneHand": "Fortune hand",
+    "SkillCheck": "Skill Check",
+    "BaseDeck": {
+      "PipDeck": "Pip Deck",
+      "VisionDeck": "Vision Deck",
+      "CommonPile": "Common Pile"
+    },
+    "Hands": {
+      "Folder": "{name} folder",
+      "Main": "{name}'s Hand",
+      "Fortune": "{name}'s Fortune Hand"
+    }
+  },
+  "DOCUMENT": {
+    "Expand": "Expand",
+    "Value": {
+      "None": "No value"
+    },
+    "Array": {
+      "Add": "Create element to add",
+      "Remove": {
+        "Label": "Select element to remove",
+        "Title": "Removing element"
+      },
+      "MaxReach": {
+        "Label": "Select element to remove (max amount reached)",
+        "Title": "Max element in array reached"
+      }
+    },
+    "Clocks": {
+      "Add": {
+        "Button": "Add clock",
+        "Prompt": {
+          "Title": "Define clock",
+          "Content": "Select max value of clock",
+          "Name": "Name of clock",
+          "Max": "Choose size of clock"
+        }
+      },
+      "Delete": {
+        "Prompt": {
+          "Title": "Clock reached max",
+          "Content": "Do you want to delete the clock ?"
+        }
+      }
+    },
+    "AgentItem": {
+      "Add": "Add item",
+      "AddCustom": "Add custom Item",
+      "Delete": {
+        "Button": "Delete Item",
+        "Prompt": {
+          "Title": "Deleting item",
+          "Content": "Do you want to delete this item ?"
+        }
+      },
+      "Prompt": {
+        "Name": "Item name",
+        "Consumable": "Is consumable",
+        "Used": "Is used",
+        "Title": "Add item",
+        "Confirm": "Submit custom item"
+      }
+    },
+    "Class": {
+      "Delete": {
+        "Button": "Delete class",
+        "Prompt": {
+          "Title": "Removing class",
+          "Content": "Are you sure you want to remove class ?"
+        }
+      },
+      "Add": {
+        "Button": "Add class",
+        "Prompt": {
+          "Title": "Add class",
+          "Label": "Class to choose",
+          "Confirm": "Choose class"
+        }
+      },
+      "Edit": {
+        "Button": "Edit class"
+      }
+    }
+  },
+  "ICONS": {
+    "Add": "fas fa-plus",
+    "Clock": "fa-mosaic fa-solid fa-clock",
+    "Cups": "fa-solid fa-wine-glass-empty",
+    "Delete": "fas fa-trash",
+    "Description": "fas fa-file",
+    "Edit": "fas fa-edit",
+    "Pentacles": "fa-solid fa-circle-star",
+    "Swords": "fa-solid fa-swords",
+    "Wands": "fa-solid fa-wand"
+  },
+  "NOTIFICATIONS": {
+    "Warning": {
+      "MissingCharacter": "User {name} don't have a character, didn't give XP"
+    }
+  },
+  "THI": {
+    "Ability": {
+      "FIELDS": {
+        "description": {
+          "label": "Description"
+        },
+        "summary": {
+          "label": "Summary"
+        }
+      }
+    },
+    "Agent": {
+      "FIELDS": {
+        "abilities": {
+          "label": "Abilities",
+          "guild": {
+            "null": "No guild",
+            "exist": "Guild of {name}"
+          }
+        },
+        "biography": {
+          "appearance": {
+            "label": "Appearance"
+          },
+          "background": {
+            "label": "Background"
+          },
+          "notes": {
+            "label": "Notes"
+          }
+        },
+        "header": {
+          "age": {
+            "label": "Age"
+          },
+          "culture": {
+            "label": "Culture"
+          },
+          "class": {
+            "label": "Class"
+          },
+          "gender": {
+            "label": "Gender"
+          },
+          "hand": {
+            "label": "Hand"
+          },
+          "storedXP": {
+            "label": "Stored XP"
+          }
+        },
+        "inventory": {
+          "usages": {
+            "label": "Usages"
+          },
+          "baseItems": {
+            "label": "Base Items"
+          },
+          "classItems": "Class Items",
+          "customItems": "Custom Items",
+          "clocks": {
+            "label": "Clocks"
+          }
+        },
+        "self": {
+          "adulthood": {
+            "label": "Adulthood"
+          },
+          "childhood": {
+            "label": "Childhood"
+          },
+          "burden": {
+            "label": "Burden"
+          },
+          "ideal": {
+            "label": "Ideal"
+          },
+          "virtues": {
+            "label": "Virtues"
+          },
+          "vices": {
+            "label": "Vices"
+          },
+          "fulfilled": {
+            "label": "Fullfilled Virtues"
+          },
+          "label": "Core Self"
+        },
+        "skills": {
+          "canMaster": "Can Master",
+          "cups": {
+            "label": "Cups",
+            "mingle": {
+              "label": "Mingle"
+            },
+            "slip": {
+              "label": "Slip"
+            },
+            "soothe": {
+              "label": "Soothe"
+            }
+          },
+          "harm": "Harm",
+          "label": "Skills",
+          "pentacles": {
+            "bargain": {
+              "label": "Bargain"
+            },
+            "finesse": {
+              "label": "Finesse"
+            },
+            "label": "Pentacles",
+            "survey": {
+              "label": "Survey"
+            }
+          },
+          "swords": {
+            "convince": {
+              "label": "Convince"
+            },
+            "label": "Swords",
+            "skirmish": {
+              "label": "Skirmish"
+            },
+            "study": {
+              "label": "Study"
+            }
+          },
+          "wands": {
+            "channel": {
+              "label": "Channel"
+            },
+            "label": "Wands",
+            "perform": {
+              "label": "Perform"
+            },
+            "unleash": {
+              "label": "Unleash"
+            }
+          }
+        },
+        "xp": "XP"
+      },
+      "Items": {
+        "Base": {
+          "Blade": "A blade or two",
+          "Charm": "Sleep charm",
+          "Documents": "Documents",
+          "Cards": "Tarot cards",
+          "Seal": "Seal of Dioscoria",
+          "Flare": "Signal flare"
+        }
+      }
+    },
+    "Arcana": {
+      "Court": {
+        "Cups": {
+          "King": "King of Cups",
+          "Knight": "Knight of Cups",
+          "Page": "Page of Cups",
+          "Queen": "Queen of Cups"
+        },
+        "Pentacles": {
+          "King": "King of Pentacles",
+          "Knight": "Knight of Pentacles",
+          "Page": "Page of Pentacles",
+          "Queen": "Queen of Pentacles"
+        },
+        "Swords": {
+          "King": "King of Swords",
+          "Knight": "Knight of Swords",
+          "Page": "Page of Swords",
+          "Queen": "Queen of Swords"
+        },
+        "Wands": {
+          "King": "King of Wands",
+          "Knight": "Knight of Wands",
+          "Page": "Page of Wands",
+          "Queen": "Queen of Wands"
+        }
+      },
+      "Major": {
+        "Chariot": "The Chariot",
+        "Death": "Death",
+        "Devil": "The Devil",
+        "Emperor": "The Emperor",
+        "Empress": "The Empress",
+        "Fool": "The Fool",
+        "Fortune": "Wheel of Fortune",
+        "Gate": "The Gate",
+        "Hanged": "The Hanged Man",
+        "Hermit": "The Hermit",
+        "Hierophant": "The Hierophant",
+        "Justice": "Justice",
+        "Lovers": "The Lovers",
+        "Magician": "The Magician",
+        "Moon": "The Moon",
+        "Priestess": "The High Priestess",
+        "Star": "The Star",
+        "Strength": "Strength",
+        "Sun": "The Sun",
+        "Temperance": "Temperance",
+        "Tower": "The Tower",
+        "World": "The World"
+      },
+      "Minor": {
+        "Cups": {
+          "Ace": "Ace of Cups",
+          "Eight": "Eight of Cups",
+          "Five": "Five of Cups",
+          "Four": "Four of Cups",
+          "Nine": "Nine of Cups",
+          "Seven": "Seven of Cups",
+          "Six": "Six of Cups",
+          "Ten": "Ten of Cups",
+          "Three": "Three of Cups",
+          "Two": "Two of Cups"
+        },
+        "Pentacles": {
+          "Ace": "Ace of Pentacles",
+          "Eight": "Eight of Pentacles",
+          "Five": "Five of Pentacles",
+          "Four": "Four of Pentacles",
+          "Nine": "Nine of Pentacles",
+          "Seven": "Seven of Pentacles",
+          "Six": "Six of Pentacles",
+          "Ten": "Ten of Pentacles",
+          "Three": "Three of Pentacles",
+          "Two": "Two of Pentacles"
+        },
+        "Swords": {
+          "Ace": "Ace of Swords",
+          "Eight": "Eight of Swords",
+          "Five": "Five of Swords",
+          "Four": "Four of Swords",
+          "Nine": "Nine of Swords",
+          "Seven": "Seven of Swords",
+          "Six": "Six of Swords",
+          "Ten": "Ten of Swords",
+          "Three": "Three of Swords",
+          "Two": "Two of Swords"
+        },
+        "Wands": {
+          "Ace": "Ace of Wands",
+          "Eight": "Eight of Wands",
+          "Five": "Five of Wands",
+          "Four": "Four of Wands",
+          "Nine": "Nine of Wands",
+          "Seven": "Seven of Wands",
+          "Six": "Six of Wands",
+          "Ten": "Ten of Wands",
+          "Three": "Three of Wands",
+          "Two": "Two of Wands"
+        }
+      }
+    },
+    "Class": {
+      "FIELDS": {
+        "guild": {
+          "label": "Guild"
+        },
+        "items": {
+          "label": "Items"
+        }
+      }
+    },
+    "Combat": {
+      "AddPlayer": "Add Player",
+      "AddPlayerCombatTracker": "Add Player to Combat Tracker",
+      "player": {
+        "FIELDS": {
+          "user": {
+            "label": "Player"
+          }
+        }
+      }
+    },
+    "Contact": {
+      "FIELDS": {
+        "affection": {
+          "label": "Affection"
+        },
+        "arcana": {
+          "label": "Arcana"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "distance": {
+          "label": "Distance"
+        }
+      }
+    },
+    "ControlButtons": {
+      "DrawFortune": {
+        "Label": "Draw Fortune cards",
+        "Icon": "fa-solid fa-cards"
+      },
+      "GivePlayerXP": {
+        "Label": "Give to players XP",
+        "Icon": "fas fa-stars"
+      },
+      "ResetUsedItems": {
+        "Label": "Reset all player items and usages",
+        "Icon": "fas fa-arrows-rotate"
+      }
+    },
+    "Effect": {
+      "Inactive": "Inactive",
+      "Label": "Effect",
+      "Passive": "Passive",
+      "Temporary": "Temporary",
+      "Toggle": "Toggle Effect"
+    },
+    "Harm": {
+      "None": "None",
+      "Physical": "Physical",
+      "Prompt": {
+        "Content": "Which type for harm ?",
+        "Title": "Define harm"
+      },
+      "Spiritual": "Spiritual",
+      "Trauma": "Trauma"
+    },
+    "Items": {
+      "name": "Name",
+      "used": "Used",
+      "consumable": "Consumable"
+    },
+    "Magic": {
+      "Proficiency": {
+        "FIELDS": {
+          "description": {
+            "label": "Description"
+          },
+          "mastery": {
+            "label": "Mastery"
+          },
+          "summary": {
+            "label": "Summary"
+          },
+          "xp": {
+            "label": "XP"
+          }
+        },
+        "Mastery": {
+          "Adept": "Adept",
+          "Master": "Master"
+        }
+      },
+      "Source": {
+        "FIELDS": {
+          "description": {
+            "label": "Description"
+          }
+        }
+      }
+    },
+    "SheetMode": {
+      "Edit": "Edit",
+      "Play": "Play"
+    },
+    "Sheets": {
+      "Labels": {
+        "AgentSheet": "Default THI Agent Sheet",
+        "ItemSheet": "Default THI Item Sheet"
+      },
+      "Tabs": {
+        "abilities": "Abilities",
+        "biography": "Biography",
+        "description": "Description",
+        "inventory": "Inventory",
+        "magic": "Magic",
+        "properties": "Properties",
+        "relations": "Relations",
+        "self": "Core Self",
+        "skills": "Skills"
+      }
+    },
+    "Self": {
+      "Negative": "Negative self",
+      "Positive": "Positive self",
+      "Core": "Core self",
+      "Childhood": "As a child, I solved problems by",
+      "Adulthood": "As an adult, I survived/flourished by"
+    },
+    "Settings": {
+      "PipDeck": {
+        "Label": "Pip Deck",
+        "Hint": "Pip deck to use inside of this world."
+      },
+      "VisionDeck": {
+        "Label": "Vision Deck",
+        "Hint": "Vision deck to use inside of this world."
+      },
+      "AutoXP": {
+        "Label": "Automatic XP",
+        "Hint": "If magic, virtue and burden automaticaly increase XP after usage."
+      }
+    },
+    "SkillCheck": {
+      "CheckConfiguration": {
+        "Title": "Skill check configuration",
+        "CoreLegend": "Core Self modifiers",
+        "IdealConfig": {
+          "Label": "Ideal",
+          "Hint": "Chosen ideal to put into skill check"
+        },
+        "BurdenConfig": {
+          "Label": "Burden",
+          "Hint": "Chosen burden to put into skill check"
+        },
+        "ViceConfig": {
+          "Label": "Vice",
+          "Hint": "Chosen vice to put into skill check"
+        },
+        "VirtueConfig": {
+          "Label": "Virtue",
+          "Hint": "Chose virtue to put into skill check"
+        },
+        "CustomMod": {
+          "Label": "Custom modifier",
+          "Hint": "Custom card to draw more or less"
+        }
+      },
+      "DifficultyConfiguration": {
+        "Title": "Difficulty configuration",
+        "Header": "{name} is asking a {skill} check",
+        "CustomCard": "Select custom number of cards, will override difficulty",
+        "Difficulty": {
+          "Label": "Select difficulty check",
+          "Easy": "Easy",
+          "Medium": "Medium",
+          "Hard": "Hard"
+        }
+      }
+    },
+    "UserConfig": {
+      "FortuneHand": "Fortune hand"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "agent": "Agent"
+    },
+    "Cards": {
+      "fortuneHand": "Fortune Hand"
+    },
+    "Combatant": {
+      "player": "Player"
+    },
+    "Item": {
+      "ability": "Ability",
+      "class": "Class",
+      "contact": "Contact",
+      "magicalprof": "Magical Proficiency",
+      "magicalsource": "Magical Source"
+    }
+  }
+}

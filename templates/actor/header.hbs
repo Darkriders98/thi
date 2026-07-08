@@ -1,0 +1,43 @@
+<header class="sheet-header flexrow">
+    <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}" {{#if editable}} data-action="editImage"
+        data-edit="img" {{/if}} data-tooltip="{{actor.name}}" height="100" width="100">
+    <div class="fields">
+        {{#if editable}}
+            <input type="text" name="name" class="document-name uninput" value="{{actor._source.name}}">
+            {{#if (ne actor.class undefined)}}
+                <div class="class">
+                    <button type="button" data-action="deleteClass">
+                        <i class="{{localize 'ICONS.Delete'}}" inert></i>
+                        {{localize 'DOCUMENT.Class.Delete.Button'}}
+                    </button>
+                    <button type="button" data-action="editClass">
+                        <i class="{{localize 'ICONS.Edit'}}" inert></i>
+                        {{localize 'DOCUMENT.Class.Edit.Button'}}
+                    </button>
+                </div>
+            {{else}}
+                <button class="class" type="button" data-action="addClass">
+                    <i class="{{localize 'ICONS.Add'}}" inert></i>
+                    {{localize 'DOCUMENT.Class.Add.Button'}}
+                </button>
+            {{/if}}
+            {{#each field.fields}}
+                <div class="{{field.name}}">
+                    {{formGroup field value=value}}
+                </div>
+            {{/each}}
+        {{else}}
+            <div class="document-name">{{actor.name}}</div>
+            <div class="class">
+                <span>{{localize 'TYPES.Item.class'}}</span>
+                <span>{{class.name}}</span>
+            </div>
+            {{#each field.fields}}
+                <div class="{{field.name}}">
+                    <span>{{field.label}}</span>
+                    <span>{{value}}</span>
+                </div>
+            {{/each}}
+        {{/if}}
+    </div>
+</header>

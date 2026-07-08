@@ -1,0 +1,18 @@
+<fieldset data-field-path="{{field.fieldPath}}" data-max="{{field.max}}" data-type="string" data-redirect-field="{{redirect.field.fieldPath}}" class="array-field">
+  <legend>
+    <div>{{field.label}}</div>
+    {{#if @root.editable}}
+      <a data-action="addArrayField">
+        <i class="{{localize 'ICONS.Add'}}"></i>
+      </a>
+      <a data-action="removeArrayField">
+        <i class="{{localize 'ICONS.Delete'}}"></i>
+      </a>
+    {{/if}}
+  </legend>
+  <ul>
+    {{#each value}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+</fieldset>

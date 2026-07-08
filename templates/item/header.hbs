@@ -1,0 +1,8 @@
+<header class="sheet-header flexrow">
+    <img class="profile-img" src="{{ item.img }}" alt="{{ item.name }}" {{#if editable}} data-action="editImage" data-edit="img" {{/if}} data-tooltip="{{ item.name }}" height="100" width="100">
+        {{#if editable}}
+            {{ formInput itemFields.name value=item.name }}
+        {{ else }}
+            <div class="document-name">{{ item.name }}</div>
+        {{/if}}
+    </header>

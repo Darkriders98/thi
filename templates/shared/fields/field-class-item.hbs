@@ -1,0 +1,15 @@
+<li class="item flexrow" data-action="useItem" >
+  {{#if @root.editable}}
+    {{formGroup field.fields.name value=name name=(concat "system.items." @key ".name")}}
+    <div class="flexcol" style="padding-left: 10px">
+      {{formGroup field.fields.used value=used name=(concat "system.items." @key ".used")}}
+      {{formGroup field.fields.consumable value=consumable name=(concat "system.items." @key ".consumable")}}
+    </div>
+  {{else}}
+    {{#if consumable}}<em>{{/if}}
+    {{#if used}}<s>{{/if}}
+    {{name}}
+    {{#if used}}</s>{{/if}}
+    {{#if consumable}}</em>{{/if}}
+  {{/if}}
+</li>

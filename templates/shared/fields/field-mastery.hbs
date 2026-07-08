@@ -1,0 +1,13 @@
+<div class="mastery">
+  {{#if @root.editable}}
+    {{formGroup skillField.field value=skillField.value label=legend max=(ifThen boolField.value 4 3)}}
+    {{formGroup boolField.field value=boolField.value}}
+  {{else}}
+    <label data-action="skillCheck" data-skill="{{skillField.field.parent.name}}"
+      data-suit="{{skillField.field.parent.parent.name}}">{{legend}}</label>
+    {{#times skillField.field.max}}
+      <span
+        class="{{#if (gt ../skillField.value this)}}filled{{/if}} {{#if (eq this 3)}}{{#if ../boolField.value}}allowed{{/if}}{{/if}}"></span>
+    {{/times}}
+  {{/if}}
+</div>

@@ -1,0 +1,25 @@
+<section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="skills">
+  {{#each field.fields}}
+    <fieldset>
+      <legend>{{legend}}</legend>
+      {{#each fields}}
+        {{#if fieldset}}
+          {{#if (eq name "harm")}}
+            <fieldset class="flexrow">
+              <legend>{{legend}}</legend>
+              {{#each fields}}
+                {{> thi.field-harm value=value}}
+              {{/each}}
+            </fieldset>
+          {{else}}
+            {{> thi.field-mastery skillField=fields.[0] boolField=fields.[1]}}
+          {{/if}}
+        {{else}}
+          {{#if (eq field.name "xp")}}
+            {{> thi.field-xp max=field.max value=value}}
+          {{/if}}
+        {{/if}}
+      {{/each}}
+    </fieldset>
+  {{/each}}
+</section>

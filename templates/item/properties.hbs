@@ -1,0 +1,61 @@
+<section class="standard-form tab scrollable {{ tab.cssClass }}" data-group="primary" data-tab="properties">
+    {{#each fields}}
+        {{#if fieldset}}
+            <fieldset>
+                <legend>{{localize legend}}</legend>
+                {{#each fields}}
+                    {{#if @root.editable}}
+                        {{formGroup field value=value localize=true}}
+                    {{else}}
+                        <div class="form-group">
+                            <label>{{localize field.label}}</label>
+                            <div class="form-fields">{{value}}</div>
+                        </div>
+                    {{/if}}
+                {{/each}}
+            </fieldset>
+        {{else}}
+            {{#if @root.editable}}
+                {{#if outer.formSupport}}
+                    {{formGroup outer.field value=outer.value localize=true}}
+                {{else}}
+                    {{#if (eq outer.field.name "items")}}
+                        <fieldset class="flexcol">
+                            <legend>{{outer.field.label}}</legend>
+                            <div class="document-control flexrow">
+                                <button class="item" type="button" data-action="addItem">
+                                    <i class="{{localize 'ICONS.Add'}}" inert></i>
+                                    {{localize 'DOCUMENT.AgentItem.Add'}}
+                                </button>
+                            </div>
+                            <ul class="items">
+                                {{#each outer.value}}
+                                    {{> thi.field-item field=../outer.field.element directlyEditable=true}}
+                                {{/each}}
+                            </ul>
+                        </fieldset>
+                    {{/if}}
+                {{/if}}
+            {{else}}
+                <div class="property-group">
+                    <label>{{localize outer.field.label}}</label>
+                    <div class="property-fields">
+                        {{#if (eq outer.field.name "items")}}
+                            <ul class="items">
+                                {{#each outer.value}}
+                                    {{> thi.field-item field=../outer.field.element directlyEditable=true}}
+                                {{/each}}
+                            </ul>
+                        {{else}}
+                            {{#if outer.field.choices}}
+                                {{lookup (lookup outer.field.choices outer.value) "label"}}
+                            {{else}}
+                                {{{outer.value}}}
+                            {{/if}}
+                        {{/if}}
+                    </div>
+                </div>
+            {{/if}}
+        {{/if}}
+    {{/each}}
+</section>

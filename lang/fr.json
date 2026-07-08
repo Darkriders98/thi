@@ -1,0 +1,149 @@
+{
+  "THI": {
+    "Harm": {
+      "None": "Aucun",
+      "Physical": "Physique",
+      "Spiritual": "Spirituelle"
+    },
+    "Agent": {
+      "FIELDS": {
+        "skills": {
+          "label": "Aptitudes",
+          "sword": {
+            "label": "Épée",
+            "xp": {
+              "label": "XP"
+            },
+            "harm": {
+              "label": "Blessure"
+            },
+            "skirmish": {
+              "label": "Escarmouche"
+            },
+            "convince": {
+              "label": "Éloquence"
+            },
+            "study": {
+              "label": "Étude"
+            }
+          },
+          "wand": {
+            "label": "Bâton",
+            "xp": {
+              "label": "XP"
+            },
+            "harm": {
+              "label": "Blessure"
+            },
+            "unleash": {
+              "label": "Déchainement"
+            },
+            "perform": {
+              "label": "Interprétation"
+            },
+            "channel": {
+              "label": "Captation"
+            }
+          },
+          "cups": {
+            "label": "Coupe",
+            "xp": {
+              "label": "XP"
+            },
+            "harm": {
+              "label": "Blessure"
+            },
+            "slip": {
+              "label": "Faufilement"
+            },
+            "soothe": {
+              "label": "Appaisement"
+            },
+            "mingle": {
+              "label": "Assimilation"
+            }
+          },
+          "pentacle": {
+            "label": "Pentacle",
+            "xp": {
+              "label": "XP"
+            },
+            "harm": {
+              "label": "Blessure"
+            },
+            "finesse": {
+              "label": "Subtilité"
+            },
+            "bargain": {
+              "label": "Marchandage"
+            },
+            "survey": {
+              "label": "Sondage"
+            }
+          }
+        },
+        "abilities": {
+          "label": "Capacités",
+          "xp": {
+            "label": "XP"
+          }
+        }
+      }
+    },
+    "Sheets": {
+      "Labels": {
+        "ActorSheet": "Fiche d'acteur THI par défaut",
+        "ItemSheet": "Fiche d'objet THI par défaut"
+      },
+      "Tabs": {
+        "skills": "Aptitudes",
+        "abilities": "Capacités",
+        "items": "Objets",
+        "effects": "Effets",
+        "properties" : "Propriétés"
+      }
+    },
+    "Combat": {
+      "AddPlayer": "Ajouter un joueur",
+      "AddPlayerCombatTracker": "Ajouter un joueur au traqueur de combat",
+      "player": {
+        "FIELDS": {
+          "user": {
+            "label": "Joueur"
+          }
+        }
+      }
+    },
+    "Feature": {
+      "FIELDS": {
+        "uses": {
+          "label": "Utilisations",
+          "value": {
+            "label": "Valeur"
+          },
+          "max": {
+            "label": "Maximum"
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Label": "Effet",
+      "Inactive": "Inactif",
+      "Passive": "Passif",
+      "Temporary": "Temporaire",
+      "Toggle": "Alterner l'effet"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "agent": "Agent"
+    },
+    "Combatant": {
+      "player": "Joueur"
+    },
+    "Item": {
+      "feature": "Trait"
+    }
+  }
+}

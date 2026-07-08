@@ -1,0 +1,19 @@
+<li class="item flexrow" data-action="useItem" data-field-path="{{replace field.fieldPath "element" @key}}">
+  {{#if (and @root.editable directlyEditable)}}
+    {{formGroup field.fields.name value=name name=(replace field.fields.name.fieldPath "element" @key)}}
+    <div class="flexcol" style="padding-left: 10px">
+      {{formGroup field.fields.used value=used name=(replace field.fields.used.fieldPath "element" @key)}}
+      {{formGroup field.fields.consumable value=consumable name=(replace field.fields.consumable.fieldPath "element" @key)}}
+    </div>
+    <button class="item" type="button" data-action="deleteItem">
+      <i class="{{localize 'ICONS.Delete'}}" inert></i>
+      {{localize 'DOCUMENT.AgentItem.Delete.Button'}}
+    </button>
+  {{else}}
+    {{#if consumable}}<em>{{/if}}
+    {{#if used}}<s>{{/if}}
+    {{name}}
+    {{#if used}}</s>{{/if}}
+    {{#if consumable}}</em>{{/if}}
+  {{/if}}
+</li>

@@ -1,0 +1,139 @@
+{
+  "id": "thi",
+  "title": "The Hidden Isle",
+  "description": "Implementation of the ttrpg The Hidden Isle.",
+  "authors": [
+    {
+      "name": "Darky",
+      "discord": "darkrider98"
+    }
+  ],
+  "url": "https://github.com/Darkriders98/thi",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/Darkriders98/thi/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "",
+      "thumbnail": ""
+    }
+  ],
+  "version": "AUTOMATIC",
+  "compatibility": {
+    "minimum": "13.351",
+    "verified": "14"
+  },
+  "esmodules": [
+    "thi.mjs"
+  ],
+  "styles": [
+    "thi.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "complete-card-management",
+        "type": "module"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": true,
+  "packs": [
+    {
+      "name": "decks",
+      "label": "Decks",
+      "path": "packs/decks",
+      "type": "Cards",
+      "system": "thi",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "thi",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "thi",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Hidden Isle Content",
+      "color": "#403e88",
+      "sorting": "m",
+      "packs": [
+        "decks",
+        "scenes",
+        "classes"
+      ]
+    }
+  ],
+  "manifest": "https://github.com/Darkriders98/thi/releases/latest/download/system.json",
+  "download": "AUTOMATIC",
+  "background": "",
+  "documentTypes": {
+    "Actor": {
+      "agent": {}
+    },
+    "Combatant": {
+      "player": {}
+    },
+    "Item": {
+      "ability": {},
+      "class": {},
+      "contact": {},
+      "magicalprof": {},
+      "magicalsource": {}
+    },
+    "Cards": {
+      "fortuneHand": {}
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "thi.css",
+        "templates",
+        "lang"
+      ]
+    }
+  }
+}

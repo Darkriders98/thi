@@ -1,0 +1,10 @@
+<div class="xp">
+  {{#if @root.editable}}
+    {{formGroup field value=value}}
+  {{else}}
+    <label>{{field.label}}</label>
+    {{#times max}}
+      <span {{#if (gt ../value this)}}class="filled" {{/if}}></span>
+    {{/times}}
+  {{/if}}
+</div>

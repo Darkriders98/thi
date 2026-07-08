@@ -1,0 +1,10 @@
+<div>
+  <h3>{{localize 'DOCUMENT.Clocks.Add.Prompt.Content'}}</h3>
+  {{#each fields}}
+    {{#if options}}
+      {{formField field name=name value=value options=options input=input}}
+    {{else}}
+      {{formField field name=name value=value input=input}}
+    {{/if}}
+  {{/each}}
+</div>

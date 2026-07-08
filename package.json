@@ -1,0 +1,40 @@
+{
+  "name": "thi",
+  "version": "0.1.10",
+  "description": "The Hidden Isle",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "createSymlinks": "node ./tools/create-symlinks.mjs",
+    "postinstall": "npm run createSymlinks",
+    "lint": "eslint thi.mjs src/module/**/* templates/**/*",
+    "lint:fix": "eslint --fix thi.mjs src/module/**/* templates/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkriders98/thi.git"
+  },
+  "keywords": [
+    "fvtt",
+    "system"
+  ],
+  "author": "Darky",
+  "bugs": {
+    "url": "https://github.com/Darkriders98/thi/issues"
+  },
+  "homepage": "https://github.com/Darkriders98/thi#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@html-eslint/eslint-plugin": "^0.26.0",
+    "@html-eslint/parser": "^0.26.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-jsdoc": "^51.4.1",
+    "rollup": "^4.9.1"
+  },
+  "dependencies": {
+    "handlebars-helper-repeat": "^2.0.0",
+    "js-yaml": "^4.1.1"
+  }
+}
