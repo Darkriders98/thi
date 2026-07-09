@@ -1,5 +1,9 @@
 node_modules
 universal-tabletop-system.lock
 foundry-config.yaml
-foundry
 art
+packs/*
+!packs/_source
+
+# IDE
+.vscode/
