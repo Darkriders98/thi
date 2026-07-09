@@ -50,7 +50,7 @@ jobs:
 
       # Create zip file.
       - name: Create ZIP archive
-        run: zip -r ./system.zip system.json thi.mjs thi.css assets/ lang/ templates/
+        run: zip -r ./system.zip system.json thi.mjs thi.css assets/ lang/ templates/ packs/ ui/
 
       # Create a release for this specific version.
       - name: Update Release with Files
