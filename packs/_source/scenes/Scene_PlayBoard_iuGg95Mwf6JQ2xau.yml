@@ -1,0 +1,190 @@
+name: PlayBoard
+_id: iuGg95Mwf6JQ2xau
+navigation: false
+thumb: worlds/test/assets/scenes/thumb-5L6Ce9EmZKi35NsCq0gpRg.webp
+width: 4000
+height: 4000
+padding: 0
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 0
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 1
+  units: ''
+tokenVision: false
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: systems/thi/ui/background/PlayBoard.jpg
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!iuGg95Mwf6JQ2xau.defaultLevel0000'
+lights: []
+notes: []
+sounds: []
+regions:
+  - color: '#ae28cc'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Region
+    _id: MXmAYfgzBR5a9grx
+    shapes:
+      - type: rectangle
+        x: 0
+        'y': 0
+        width: 4000
+        height: 4000
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Allocate Card
+        type: complete-card-management.moveCard
+        _id: nA03jxb3QeUMDCsU
+        system:
+          targetStack: XbOE1qI4kiq0vmT9
+          keepCanvasCard: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: thi
+          systemVersion: AUTOMATIC
+          createdTime: 1781460052451
+          modifiedTime: 1781460052451
+          lastModifiedBy: u8cJBDH6TG9DNXcg
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!iuGg95Mwf6JQ2xau.MXmAYfgzBR5a9grx.nA03jxb3QeUMDCsU
+    locked: false
+    ownership:
+      default: 0
+      u8cJBDH6TG9DNXcg: 3
+    flags: {}
+    _shapeConstraints: null
+    _key: '!scenes.regions!iuGg95Mwf6JQ2xau.MXmAYfgzBR5a9grx'
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+folder: null
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags:
+  complete-card-management:
+    cardCollection:
+      - Cards.XbOE1qI4kiq0vmT9.Card.WVPVmT0stBbZbICT
+      - Cards.XbOE1qI4kiq0vmT9.Card.FLRyNNioAfX28qET
+      - Cards.XbOE1qI4kiq0vmT9.Card.JL9QbGdjotclEIkH
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1781460052451
+  modifiedTime: 1781460052451
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+navName: ''
+active: false
+navOrder: 0
+sort: 0
+_key: '!scenes!iuGg95Mwf6JQ2xau'
+templates: []

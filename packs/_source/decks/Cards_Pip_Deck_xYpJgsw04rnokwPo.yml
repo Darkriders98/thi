@@ -1,0 +1,1438 @@
+name: Pip Deck
+type: deck
+_id: xYpJgsw04rnokwPo
+description: ''
+img: systems/thi/ui/official/backs/pip.jpg
+system: {}
+cards:
+  - faces:
+      - name: Ace of Swords
+        img: systems/thi/ui/official/cards/minor/Ace%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Ace of Swords
+    _id: 3ZnOfBVALCvBMFkn
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 31
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714742667
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.3ZnOfBVALCvBMFkn'
+    cards: []
+  - faces:
+      - name: Two of Swords
+        img: systems/thi/ui/official/cards/minor/Two%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Two of Swords
+    _id: nLkqkVICyzmaW062
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 2
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 34
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714755534
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.nLkqkVICyzmaW062'
+    cards: []
+  - faces:
+      - name: Three of Swords
+        img: systems/thi/ui/official/cards/minor/Three%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Three of Swords
+    _id: LfWMRuqf4l2ahxVT
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 3
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 17
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714764479
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.LfWMRuqf4l2ahxVT'
+    cards: []
+  - faces:
+      - name: Four of Swords
+        img: systems/thi/ui/official/cards/minor/Four%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Four of Swords
+    _id: 9CKPO1xTVXO1WkLc
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 4
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 2
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714777405
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.9CKPO1xTVXO1WkLc'
+    cards: []
+  - faces:
+      - name: Five of Swords
+        img: systems/thi/ui/official/cards/minor/Five%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Five of Swords
+    _id: n10sZ0TYAhBVBGcJ
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 5
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 11
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714786812
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.n10sZ0TYAhBVBGcJ'
+    cards: []
+  - faces:
+      - name: Six of Swords
+        img: systems/thi/ui/official/cards/minor/Six%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Six of Swords
+    _id: 1GrVuGejHcQSpzWd
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 6
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 36
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714877438
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.1GrVuGejHcQSpzWd'
+    cards: []
+  - faces:
+      - name: Seven of Swords
+        img: systems/thi/ui/official/cards/minor/Seven%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Seven of Swords
+    _id: phTabhTbCSlXGy6C
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 7
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 35
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714939698
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.phTabhTbCSlXGy6C'
+    cards: []
+  - faces:
+      - name: Eight of Swords
+        img: systems/thi/ui/official/cards/minor/Eight%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Eight of Swords
+    _id: nDZ8w7wbmmVqiNHJ
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 8
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 8
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714952049
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.nDZ8w7wbmmVqiNHJ'
+    cards: []
+  - faces:
+      - name: Nine of Swords
+        img: systems/thi/ui/official/cards/minor/Nine%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Nine of Swords
+    _id: cDLsY8Sy00jZFpQg
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 9
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 33
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714960641
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.cDLsY8Sy00jZFpQg'
+    cards: []
+  - faces:
+      - name: Ten of Swords
+        img: systems/thi/ui/official/cards/minor/Ten%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Ten of Swords
+    _id: 6GAzUE2gExmm0PYo
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 10
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 7
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714972653
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.6GAzUE2gExmm0PYo'
+    cards: []
+  - faces:
+      - name: Ace of Wands
+        img: systems/thi/ui/official/cards/minor/Ace%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Ace of Wands
+    _id: TVknT6l7N63MSNHE
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 5
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714985132
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.TVknT6l7N63MSNHE'
+    cards: []
+  - faces:
+      - name: Two of Wands
+        img: systems/thi/ui/official/cards/minor/Two%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Two of Wands
+    _id: fZfNu78pKik9w89a
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 2
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 22
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715004248
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.fZfNu78pKik9w89a'
+    cards: []
+  - faces:
+      - name: Three of Wands
+        img: systems/thi/ui/official/cards/minor/Three%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Three of Wands
+    _id: 7FGgMAisg4j4LMW4
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 3
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 25
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715014358
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.7FGgMAisg4j4LMW4'
+    cards: []
+  - faces:
+      - name: Four of Wands
+        img: systems/thi/ui/official/cards/minor/Four%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Four of Wands
+    _id: JoZT9jBsmAaGmwYI
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 4
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 30
+    flags:
+      complete-card-management: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715023753
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.JoZT9jBsmAaGmwYI'
+    cards: []
+  - faces:
+      - name: Five of Wands
+        img: systems/thi/ui/official/cards/minor/Five%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Five of Wands
+    _id: 7TGcFAOOyNyUpA7U
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 5
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 29
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715032167
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.7TGcFAOOyNyUpA7U'
+    cards: []
+  - faces:
+      - name: Six of Wands
+        img: systems/thi/ui/official/cards/minor/Six%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Six of Wands
+    _id: lRdDbP2w4e9AcZyX
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 6
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 12
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715078705
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.lRdDbP2w4e9AcZyX'
+    cards: []
+  - faces:
+      - name: Seven of Wands
+        img: systems/thi/ui/official/cards/minor/Seven%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Seven of Wands
+    _id: WnqbEhoJ0MBCP5tI
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 7
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 4
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715087319
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.WnqbEhoJ0MBCP5tI'
+    cards: []
+  - faces:
+      - name: Eight of Wands
+        img: systems/thi/ui/official/cards/minor/Eight%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Eight of Wands
+    _id: ecePDBm3brCm2nG4
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 8
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 15
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715096335
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.ecePDBm3brCm2nG4'
+    cards: []
+  - faces:
+      - name: Nine of Wands
+        img: systems/thi/ui/official/cards/minor/Nine%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Nine of Wands
+    _id: GT1RAEyWyTnPWfiT
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 9
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 37
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715111867
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.GT1RAEyWyTnPWfiT'
+    cards: []
+  - faces:
+      - name: Ten of Wands
+        img: systems/thi/ui/official/cards/minor/Ten%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Ten of Wands
+    _id: NxhqtDo2qVjzC0Lx
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 10
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 18
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781715125824
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.NxhqtDo2qVjzC0Lx'
+    cards: []
+  - faces:
+      - name: Ace of Cups
+        img: systems/thi/ui/official/cards/minor/Ace%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Ace of Cups
+    _id: tV4WMElq3Lzq2RxC
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 9
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781713937495
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.tV4WMElq3Lzq2RxC'
+    cards: []
+  - faces:
+      - name: Two of Cups
+        img: systems/thi/ui/official/cards/minor/Two%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Two of Cups
+    _id: KojNAFTIXtIJJuQr
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 2
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 16
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781713954377
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.KojNAFTIXtIJJuQr'
+    cards: []
+  - faces:
+      - name: Three of Cups
+        img: systems/thi/ui/official/cards/minor/Three%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Three of Cups
+    _id: IywUa3VmgdOxQZiT
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 3
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 32
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781713979277
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.IywUa3VmgdOxQZiT'
+    cards: []
+  - faces:
+      - name: Four of Cups
+        img: systems/thi/ui/official/cards/minor/Four%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Four of Cups
+    _id: JGNKaZpgMgtIcCCx
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 4
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714577332
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.JGNKaZpgMgtIcCCx'
+    cards: []
+  - faces:
+      - name: Five of Cups
+        img: systems/thi/ui/official/cards/minor/Five%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Five of Cups
+    _id: drVkIeMOUez9FSH0
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 5
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 10
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714586452
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.drVkIeMOUez9FSH0'
+    cards: []
+  - faces:
+      - name: Six of Cups
+        img: systems/thi/ui/official/cards/minor/Six%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Six of Cups
+    _id: 54PpBWkzlYWMApMg
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 6
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 39
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714595470
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.54PpBWkzlYWMApMg'
+    cards: []
+  - faces:
+      - name: Seven of Cups
+        img: systems/thi/ui/official/cards/minor/Seven%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Seven of Cups
+    _id: c2ZJatdYp6VNva5N
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 7
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 13
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714605772
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.c2ZJatdYp6VNva5N'
+    cards: []
+  - faces:
+      - name: Eight of Cups
+        img: systems/thi/ui/official/cards/minor/Eight%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Eight of Cups
+    _id: khVEHWkiaNxaxGWu
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 8
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 24
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714618426
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.khVEHWkiaNxaxGWu'
+    cards: []
+  - faces:
+      - name: Nine of Cups
+        img: systems/thi/ui/official/cards/minor/Ten%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Nine of Cups
+    _id: Iw6cEpyfssVtzEM1
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 9
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 28
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714630874
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.Iw6cEpyfssVtzEM1'
+    cards: []
+  - faces:
+      - name: Ten of Cups
+        img: systems/thi/ui/official/cards/minor/Ten%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Ten of Cups
+    _id: cymDwF3wO4SXOMQn
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 10
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 23
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714642242
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.cymDwF3wO4SXOMQn'
+    cards: []
+  - faces:
+      - name: Ace of Pentacles
+        img: systems/thi/ui/official/cards/minor/Ace%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Ace of Pentacles
+    _id: SJTxeIkwnKEqBSQG
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 20
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714649916
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.SJTxeIkwnKEqBSQG'
+    cards: []
+  - faces:
+      - name: Two of Pentacles
+        img: systems/thi/ui/official/cards/minor/Two%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Two of Pentacles
+    _id: txxiqi9iOvsewGRv
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 2
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 14
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714661667
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.txxiqi9iOvsewGRv'
+    cards: []
+  - faces:
+      - name: Three of Pentacles
+        img: systems/thi/ui/official/cards/minor/Three%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Three of Pentacles
+    _id: xWximk453asOT6ib
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 3
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 6
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714671483
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.xWximk453asOT6ib'
+    cards: []
+  - faces:
+      - name: Four of Pentacles
+        img: systems/thi/ui/official/cards/minor/Four%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Four of Pentacles
+    _id: Vi2nEJTSVwRkOUk0
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 4
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 26
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714680921
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.Vi2nEJTSVwRkOUk0'
+    cards: []
+  - faces:
+      - name: Five of Pentacles
+        img: systems/thi/ui/official/cards/minor/Five%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Five of Pentacles
+    _id: 790VgGQhoCNEwf9n
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 5
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 38
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714691407
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.790VgGQhoCNEwf9n'
+    cards: []
+  - faces:
+      - name: Six of Pentacles
+        img: systems/thi/ui/official/cards/minor/Six%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Six of Pentacles
+    _id: OBEM43fDrAHLNglh
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 6
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714698804
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.OBEM43fDrAHLNglh'
+    cards: []
+  - faces:
+      - name: Seven of Pentacles
+        img: systems/thi/ui/official/cards/minor/Seven%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Seven of Pentacles
+    _id: QlnZRKko8nYHh31W
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 7
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 27
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714707006
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.QlnZRKko8nYHh31W'
+    cards: []
+  - faces:
+      - name: Eight of Pentacles
+        img: systems/thi/ui/official/cards/minor/Eight%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Eight of Pentacles
+    _id: 8oOaN0jHe5wXZ4WF
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 8
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 19
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714714942
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.8oOaN0jHe5wXZ4WF'
+    cards: []
+  - faces:
+      - name: Nine of Pentacles
+        img: systems/thi/ui/official/cards/minor/Nine%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Nine of Pentacles
+    _id: 7mPDKcLPr3KxeR9g
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 9
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714725830
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.7mPDKcLPr3KxeR9g'
+    cards: []
+  - faces:
+      - name: Ten of Pentacles
+        img: systems/thi/ui/official/cards/minor/Ten%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Ten of Pentacles
+    _id: 3YqpDUR5RjX48TT5
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 10
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 21
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183184349
+      modifiedTime: 1781714735048
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!xYpJgsw04rnokwPo.3YqpDUR5RjX48TT5'
+    cards: []
+rotation: 0
+displayCount: false
+folder: null
+flags:
+  complete-card-management:
+    primaryOwner: u8cJBDH6TG9DNXcg
+  core:
+    sheetClass: complete-card-management.DeckSheet
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1780183184349
+  modifiedTime: 1781713858541
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+width: 2
+height: 3
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+sort: 0
+_key: '!cards!xYpJgsw04rnokwPo'

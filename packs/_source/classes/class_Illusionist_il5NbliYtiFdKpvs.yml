@@ -1,0 +1,45 @@
+name: Illusionist
+type: class
+_id: il5NbliYtiFdKpvs
+img: icons/svg/item-bag.svg
+system:
+  items:
+    cedbbca03b3448:
+      name: Flash powder
+      consumable: true
+      used: false
+    9a5850b32d108:
+      name: Shimmer cloak
+      consumable: false
+      used: false
+    5142df0d909ca8:
+      name: Concealment powder
+      consumable: true
+      used: false
+    a73c78606bf6f:
+      name: True-sight mask
+      consumable: false
+      used: false
+    4ff53bf4071cf:
+      name: Truth-bend mirror
+      consumable: false
+      used: false
+  guild: Prism
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542462303
+  modifiedTime: 1783542902301
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!il5NbliYtiFdKpvs'

@@ -1,0 +1,53 @@
+name: Occultist
+type: class
+_id: mDuWTavJAMa4LmzQ
+img: icons/svg/item-bag.svg
+system:
+  items:
+    '81834908500e1':
+      name: Spirit flask
+      consumable: true
+      used: false
+    1500d31165ffe:
+      name: Ritual materials
+      consumable: true
+      used: false
+    97a43c07b0efb8:
+      name: Spirit lure
+      consumable: true
+      used: false
+    c6abd0d7cf94d8:
+      name: Other-sight lens
+      consumable: false
+      used: false
+    16d165cf9ed288:
+      name: Book of demons and angels
+      consumable: false
+      used: false
+    7f1fca9db3d47:
+      name: Angelic ward
+      consumable: false
+      used: false
+    de1cfd0b5ce568:
+      name: Alchemy powders
+      consumable: true
+      used: false
+  guild: Spirits
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542455329
+  modifiedTime: 1783542851482
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mDuWTavJAMa4LmzQ'

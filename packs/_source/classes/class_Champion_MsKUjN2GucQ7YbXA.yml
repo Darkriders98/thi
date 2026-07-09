@@ -1,0 +1,45 @@
+name: Champion
+type: class
+_id: MsKUjN2GucQ7YbXA
+img: icons/svg/item-bag.svg
+system:
+  items:
+    311115b09bca3:
+      name: Expandable shield
+      consumable: false
+      used: false
+    a64e177e7bb0f:
+      name: Blessed water
+      consumable: true
+      used: false
+    bea50ad2afe53:
+      name: Numbing salve
+      consumable: true
+      used: false
+    4a09eea165f0b8:
+      name: Protection charm
+      consumable: false
+      used: false
+    4cbd7a850d884:
+      name: Psalter
+      consumable: false
+      used: false
+  guild: Shields
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542609978
+  modifiedTime: 1783543008462
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MsKUjN2GucQ7YbXA'

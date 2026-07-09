@@ -1,0 +1,1366 @@
+name: Vision Deck
+type: deck
+_id: tbapE4O1OVUbfeAd
+description: ''
+img: systems/thi/ui/official/backs/vision.jpg
+system: {}
+cards:
+  - faces:
+      - name: King of Cups
+        img: systems/thi/ui/official/cards/court/King%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: King of Cups
+    _id: ptPRiuwwij9nI81e
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 14
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715325435
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.ptPRiuwwij9nI81e'
+    cards: []
+  - faces:
+      - name: King of Pentacles
+        img: systems/thi/ui/official/cards/court/King%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: King of Pentacles
+    _id: scLolDcfPvuKuJef
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 14
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715336603
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.scLolDcfPvuKuJef'
+    cards: []
+  - faces:
+      - name: King of Swords
+        img: systems/thi/ui/official/cards/court/King%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: King of Swords
+    _id: ZRabHjudoigQcE4s
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 14
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715345524
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.ZRabHjudoigQcE4s'
+    cards: []
+  - faces:
+      - name: King of Wands
+        img: systems/thi/ui/official/cards/court/King%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: King of Wands
+    _id: 3XVj4PrUVTPCBe8A
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 14
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715352190
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.3XVj4PrUVTPCBe8A'
+    cards: []
+  - faces:
+      - name: Knight of Cups
+        img: systems/thi/ui/official/cards/court/Knight%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Knight of Cups
+    _id: Pe4tYMLBoX0krqJj
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 12
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715363430
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Pe4tYMLBoX0krqJj'
+    cards: []
+  - faces:
+      - name: Knight of Pentacles
+        img: systems/thi/ui/official/cards/court/Knight%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Knight of Pentacles
+    _id: Z5WPhrK2ZWY2ZnJX
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 12
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715371539
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Z5WPhrK2ZWY2ZnJX'
+    cards: []
+  - faces:
+      - name: Knight of Swords
+        img: systems/thi/ui/official/cards/court/Knight%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Knight of Swords
+    _id: zC6Db4IJKUAmluv4
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 12
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715379162
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.zC6Db4IJKUAmluv4'
+    cards: []
+  - faces:
+      - name: Knight of Wands
+        img: systems/thi/ui/official/cards/court/Knight%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Knight of Wands
+    _id: wwoMmmiX5GwQSmV5
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 12
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715390690
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.wwoMmmiX5GwQSmV5'
+    cards: []
+  - faces:
+      - name: Page of Cups
+        img: systems/thi/ui/official/cards/court/Page%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Page of Cups
+    _id: i7jHDym5bp1RlRVf
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 11
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715399878
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.i7jHDym5bp1RlRVf'
+    cards: []
+  - faces:
+      - name: Page of Pentacles
+        img: systems/thi/ui/official/cards/court/Page%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Page of Pentacles
+    _id: DvSRYUTRevRt7jGP
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 11
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715414036
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.DvSRYUTRevRt7jGP'
+    cards: []
+  - faces:
+      - name: Page of Swords
+        img: systems/thi/ui/official/cards/court/Page%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Page of Swords
+    _id: zjkICryo45dYsXXG
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 11
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715424707
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.zjkICryo45dYsXXG'
+    cards: []
+  - faces:
+      - name: Page of Wands
+        img: systems/thi/ui/official/cards/court/Page%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Page of Wands
+    _id: qyHSOeemFfc1gZ2G
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 11
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715432966
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.qyHSOeemFfc1gZ2G'
+    cards: []
+  - faces:
+      - name: Queen of Cups
+        img: systems/thi/ui/official/cards/court/Queen%20of%20Cups.jpg
+        text: ''
+    face: 0
+    name: Queen of Cups
+    _id: btQ3P7Q8tzOzkYqB
+    description: ''
+    type: base
+    system: {}
+    suit: cups
+    value: 13
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715442750
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.btQ3P7Q8tzOzkYqB'
+    cards: []
+  - faces:
+      - name: Queen of Pentacles
+        img: systems/thi/ui/official/cards/court/Queen%20of%20Pentacles.jpg
+        text: ''
+    face: 0
+    name: Queen of Pentacles
+    _id: ZHcao9QDZE28APjh
+    description: ''
+    type: base
+    system: {}
+    suit: pentacles
+    value: 13
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715451014
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.ZHcao9QDZE28APjh'
+    cards: []
+  - faces:
+      - name: Quenn of Swords
+        img: systems/thi/ui/official/cards/court/Queen%20of%20Swords.jpg
+        text: ''
+    face: 0
+    name: Quenn of Swords
+    _id: 8ZZmjsaoQgoaPmVv
+    description: ''
+    type: base
+    system: {}
+    suit: swords
+    value: 13
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715461838
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.8ZZmjsaoQgoaPmVv'
+    cards: []
+  - faces:
+      - name: Queen of Wands
+        img: systems/thi/ui/official/cards/court/Queen%20of%20Wands.jpg
+        text: ''
+    face: 0
+    name: Queen of Wands
+    _id: Rg9kQI7z7GalM1Pi
+    description: ''
+    type: base
+    system: {}
+    suit: wands
+    value: 13
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715469262
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Rg9kQI7z7GalM1Pi'
+    cards: []
+  - faces:
+      - name: The Fool
+        img: systems/thi/ui/official/cards/major/The%20Fool.jpg
+        text: ''
+    face: 0
+    name: The Fool
+    _id: t0spOo0aYvdRfD9T
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 0
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715511039
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.t0spOo0aYvdRfD9T'
+    cards: []
+  - faces:
+      - name: The High Priestess
+        img: systems/thi/ui/official/cards/major/The%20High%20Priestess.jpg
+        text: ''
+    face: 0
+    name: The High Priestess
+    _id: Kz7C6HtNaPeios9L
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715519998
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Kz7C6HtNaPeios9L'
+    cards: []
+  - faces:
+      - name: Death
+        img: systems/thi/ui/official/cards/major/Death.jpg
+        text: ''
+    face: 0
+    name: Death
+    _id: hcTYZXyery8vru8m
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 13
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715529159
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.hcTYZXyery8vru8m'
+    cards: []
+  - faces:
+      - name: Justice
+        img: systems/thi/ui/official/cards/major/Justice.jpg
+        text: ''
+    face: 0
+    name: Justice
+    _id: Lf2EuhkxapREAWVw
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 11
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715551610
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Lf2EuhkxapREAWVw'
+    cards: []
+  - faces:
+      - name: Strength
+        img: systems/thi/ui/official/cards/major/Strength.jpg
+        text: ''
+    face: 0
+    name: Strength
+    _id: Rnh160AQCYxuTeid
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 8
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715573215
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Rnh160AQCYxuTeid'
+    cards: []
+  - faces:
+      - name: Temperance
+        img: systems/thi/ui/official/cards/major/Temperance.jpg
+        text: ''
+    face: 0
+    name: Temperance
+    _id: OaawB3QFz8zoIwi9
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 14
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715594511
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.OaawB3QFz8zoIwi9'
+    cards: []
+  - faces:
+      - name: The Chariot
+        img: systems/thi/ui/official/cards/major/The%20Chariot.jpg
+        text: ''
+    face: 0
+    name: The Chariot
+    _id: L8jHhpMhlWGygxAq
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 7
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715608386
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.L8jHhpMhlWGygxAq'
+    cards: []
+  - faces:
+      - name: The Devil
+        img: systems/thi/ui/official/cards/major/The%20Devil.jpg
+        text: ''
+    face: 0
+    name: The Devil
+    _id: SOYy8GqdkpaExXED
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 15
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715636405
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.SOYy8GqdkpaExXED'
+    cards: []
+  - faces:
+      - name: The Emperor
+        img: systems/thi/ui/official/cards/major/The%20Emperor.jpg
+        text: ''
+    face: 0
+    name: The Emperor
+    _id: whLd0ArMIOxUb0vy
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 4
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715647538
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.whLd0ArMIOxUb0vy'
+    cards: []
+  - faces:
+      - name: The Empress
+        img: systems/thi/ui/official/cards/major/The%20Empress.jpg
+        text: ''
+    face: 0
+    name: The Empress
+    _id: ESts07glPIPDWFhW
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 2
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715657616
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.ESts07glPIPDWFhW'
+    cards: []
+  - faces:
+      - name: The Gate
+        img: systems/thi/ui/official/cards/major/The%20Gate.jpg
+        text: ''
+    face: 0
+    name: The Gate
+    _id: XxlkTudFTduazaSG
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 20
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715669952
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.XxlkTudFTduazaSG'
+    cards: []
+  - faces:
+      - name: The Hanged Man
+        img: systems/thi/ui/official/cards/major/The%20Hanged%20Man.jpg
+        text: ''
+    face: 0
+    name: The Hanged Man
+    _id: wrEAPiWqwXbfonsC
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 12
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715717904
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.wrEAPiWqwXbfonsC'
+    cards: []
+  - faces:
+      - name: The Hermit
+        img: systems/thi/ui/official/cards/major/The%20Hermit.jpg
+        text: ''
+    face: 0
+    name: The Hermit
+    _id: G9xiq8EMwv8D0gy8
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 9
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715815297
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.G9xiq8EMwv8D0gy8'
+    cards: []
+  - faces:
+      - name: The Hierophant
+        img: systems/thi/ui/official/cards/major/The%20Hierophant.jpg
+        text: ''
+    face: 0
+    name: The Hierophant
+    _id: 4vQJoqow4pYoqGhE
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 5
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715826469
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.4vQJoqow4pYoqGhE'
+    cards: []
+  - faces:
+      - name: The Lovers (Poly)
+        img: systems/thi/ui/official/cards/major/The%20Lovers%20Poly.jpg
+        text: ''
+      - name: The Lovers (Men)
+        img: systems/thi/ui/official/cards/major/The%20Lovers%20Men.jpg
+        text: ''
+      - name: The Lovers (Women)
+        img: systems/thi/ui/official/cards/major/The%20Lovers%20Women.jpg
+        text: ''
+    face: 0
+    name: The Lovers
+    _id: dNLWmxwYr96d15hM
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 6
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715890463
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.dNLWmxwYr96d15hM'
+    cards: []
+  - faces:
+      - name: The Magician
+        img: systems/thi/ui/official/cards/major/The%20Magician.jpg
+        text: ''
+    face: 0
+    name: The Magician
+    _id: IX9vWlH6kqln9jcp
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 1
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715912954
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.IX9vWlH6kqln9jcp'
+    cards: []
+  - faces:
+      - name: The Moon
+        img: systems/thi/ui/official/cards/major/The%20Moon.jpg
+        text: ''
+    face: 0
+    name: The Moon
+    _id: EPo6u758TvVKMItU
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 18
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715933135
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.EPo6u758TvVKMItU'
+    cards: []
+  - faces:
+      - name: The Star
+        img: systems/thi/ui/official/cards/major/The%20Star.jpg
+        text: ''
+    face: 0
+    name: The Star
+    _id: sHMp0jsKW9f7U8HJ
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 17
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715942934
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.sHMp0jsKW9f7U8HJ'
+    cards: []
+  - faces:
+      - name: The Sun
+        img: systems/thi/ui/official/cards/major/The%20Sun.jpg
+        text: ''
+    face: 0
+    name: The Sun
+    _id: HSeZf6ea2PezJl97
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 19
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715952042
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.HSeZf6ea2PezJl97'
+    cards: []
+  - faces:
+      - name: The Tower
+        img: systems/thi/ui/official/cards/major/The%20Tower.jpg
+        text: ''
+    face: 0
+    name: The Tower
+    _id: mJGgUhfgmwLMAJpI
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 16
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715961907
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.mJGgUhfgmwLMAJpI'
+    cards: []
+  - faces:
+      - name: The World
+        img: systems/thi/ui/official/cards/major/The%20World.jpg
+        text: ''
+    face: 0
+    name: The World
+    _id: 6EmTwQ9Y2kwJpV7c
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 21
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715973299
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.6EmTwQ9Y2kwJpV7c'
+    cards: []
+  - faces:
+      - name: Wheel of Fortune
+        img: systems/thi/ui/official/cards/major/Wheel%20of%20Fortune.jpg
+        text: ''
+    face: 0
+    name: Wheel of Fortune
+    _id: Zy4drzQYJ5bGPWJN
+    description: ''
+    type: base
+    system: {}
+    suit: major
+    value: 10
+    back:
+      text: ''
+      img: null
+      name: ''
+    drawn: false
+    origin: null
+    rotation: 0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: thi
+      systemVersion: AUTOMATIC
+      createdTime: 1780183182645
+      modifiedTime: 1781715982071
+      lastModifiedBy: u8cJBDH6TG9DNXcg
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    width: 2
+    height: 3
+    _key: '!cards.cards!tbapE4O1OVUbfeAd.Zy4drzQYJ5bGPWJN'
+    cards: []
+rotation: 0
+displayCount: false
+folder: null
+flags:
+  complete-card-management:
+    primaryOwner: u8cJBDH6TG9DNXcg
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1780183182645
+  modifiedTime: 1781715170224
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+width: 2
+height: 3
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+sort: 0
+_key: '!cards!tbapE4O1OVUbfeAd'

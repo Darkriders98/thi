@@ -1,0 +1,41 @@
+name: Prowler
+type: class
+_id: iE0FtaPI00NFujdN
+img: icons/svg/item-bag.svg
+system:
+  items:
+    51f17e9e7aa3f:
+      name: Caltrops
+      consumable: true
+      used: false
+    62f7fec4a7efa8:
+      name: Powdered shadow
+      consumable: true
+      used: false
+    80c7ef1c7d152:
+      name: Distraction charm
+      consumable: false
+      used: false
+    bd580abe906da8:
+      name: Dousing arrow
+      consumable: true
+      used: false
+  guild: Shadows
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542619417
+  modifiedTime: 1783543041691
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iE0FtaPI00NFujdN'

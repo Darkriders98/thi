@@ -1,0 +1,49 @@
+name: Hunter
+type: class
+_id: 62EG85ErvOoDQW6w
+img: icons/svg/item-bag.svg
+system:
+  items:
+    182709611eefa8:
+      name: Wheel-lock pistol
+      consumable: false
+      used: false
+    7538aaca0d72f:
+      name: Tracking charm
+      consumable: false
+      used: false
+    2738ba988d48c8:
+      name: Snares
+      consumable: true
+      used: false
+    320974ffd5136:
+      name: Doppelganger charm
+      consumable: false
+      used: false
+    639db52eae02f8:
+      name: Gag of truth
+      consumable: false
+      used: false
+    4b08f9b32d627:
+      name: Warning skull
+      consumable: false
+      used: false
+  guild: Wolves
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783205569708
+  modifiedTime: 1783542965504
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!62EG85ErvOoDQW6w'

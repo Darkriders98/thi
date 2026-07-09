@@ -1,0 +1,33 @@
+name: Performer
+type: class
+_id: NGgsk4WMNZYyGcHz
+img: icons/svg/item-bag.svg
+system:
+  items:
+    8b41dfaaf077b:
+      name: Archetype masks
+      consumable: false
+      used: false
+    73f4e33c3cfaf8:
+      name: Bravado charm
+      consumable: false
+      used: false
+  guild: Song and Masks
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542626273
+  modifiedTime: 1783543103511
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NGgsk4WMNZYyGcHz'
