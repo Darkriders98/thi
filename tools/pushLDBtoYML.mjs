@@ -9,7 +9,7 @@ const folders = true;
 
 const packs = await fs.readdir("./packs");
 for (const pack of packs) {
-  if (pack.startsWith(".")) continue;
+  if (pack === "_source") continue;
   console.log("Unpacking " + pack);
   await extractPack(
     `${PACKAGE_ID}/packs/${pack}`,
