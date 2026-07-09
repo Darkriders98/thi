@@ -10,7 +10,7 @@ for (const pack of packs) {
   if (pack.startsWith(".")) continue;
   console.log('Packing ' + pack);
   await compilePack(
-    `${PACKAGE_ID}/src/packs/${pack}`,
+    `${PACKAGE_ID}/packs/_source/${pack}`,
     `${PACKAGE_ID}/packs/${pack}`,
     { yaml, recursive: folders }
   );
