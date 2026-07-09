@@ -1,0 +1,49 @@
+name: Siphoner
+type: class
+_id: gPWGSK7KgUawZytG
+img: icons/svg/item-bag.svg
+system:
+  items:
+    2d72bf297c2428:
+      name: Leeches
+      consumable: false
+      used: false
+    f2732a93eae2b:
+      name: Blood net
+      consumable: false
+      used: false
+    3b5ddd2c9948b8:
+      name: Bile pump
+      consumable: false
+      used: false
+    84f58878136ce8:
+      name: Phlegm tablets
+      consumable: true
+      used: false
+    d7470ce55f78a:
+      name: Melancoly charm
+      consumable: false
+      used: false
+    d01e4b0789961:
+      name: Siphon glove
+      consumable: false
+      used: false
+  guild: Blood
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542644330
+  modifiedTime: 1783543159164
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!gPWGSK7KgUawZytG'

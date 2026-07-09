@@ -30,7 +30,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: '20.10.0'
+          node-version: '20.11.0'
           cache: 'npm'
 
       # `npm ci` is recommended:
@@ -43,6 +43,10 @@ jobs:
         run: |
           npm run build
           mv --force public/thi.mjs thi.mjs
+
+      - name: Build Packs
+        run: |
+          npm run pullYMLtoLDB --if-present
 
       # Create zip file.
       - name: Create ZIP archive

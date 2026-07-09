@@ -1,0 +1,37 @@
+name: Scoundrel
+type: class
+_id: 8hRNbf8w21QIht63
+img: icons/svg/item-bag.svg
+system:
+  items:
+    62945abbd754c8:
+      name: Charisma charm
+      consumable: false
+      used: false
+    c4147444af6a08:
+      name: Disguise kit
+      consumable: true
+      used: false
+    b5ae97279491d:
+      name: Lust powder
+      consumable: false
+      used: false
+  guild: the Lost
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  u8cJBDH6TG9DNXcg: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: thi
+  systemVersion: AUTOMATIC
+  createdTime: 1783542636324
+  modifiedTime: 1783543080060
+  lastModifiedBy: u8cJBDH6TG9DNXcg
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8hRNbf8w21QIht63'
