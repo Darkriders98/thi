@@ -7,4 +7,4 @@ packs/*
 !packs/_source
 
 # IDE
-.vscode/
+.vscode
