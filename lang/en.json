@@ -1,88 +1,88 @@
 {
   "CARDS": {
-    "CardsFortuneHand": "Fortune hand",
-    "SkillCheck": "Skill Check",
     "BaseDeck": {
+      "CommonPile": "Common Pile",
       "PipDeck": "Pip Deck",
-      "VisionDeck": "Vision Deck",
-      "CommonPile": "Common Pile"
+      "VisionDeck": "Vision Deck"
     },
+    "CardsFortuneHand": "Fortune hand",
     "Hands": {
       "Folder": "{name} folder",
-      "Main": "{name}'s Hand",
-      "Fortune": "{name}'s Fortune Hand"
-    }
+      "Fortune": "{name}'s Fortune Hand",
+      "Main": "{name}'s Hand"
+    },
+    "SkillCheck": "Skill Check"
   },
   "DOCUMENT": {
-    "Expand": "Expand",
-    "Value": {
-      "None": "No value"
-    },
-    "Array": {
-      "Add": "Create element to add",
-      "Remove": {
-        "Label": "Select element to remove",
-        "Title": "Removing element"
-      },
-      "MaxReach": {
-        "Label": "Select element to remove (max amount reached)",
-        "Title": "Max element in array reached"
-      }
-    },
-    "Clocks": {
-      "Add": {
-        "Button": "Add clock",
-        "Prompt": {
-          "Title": "Define clock",
-          "Content": "Select max value of clock",
-          "Name": "Name of clock",
-          "Max": "Choose size of clock"
-        }
-      },
-      "Delete": {
-        "Prompt": {
-          "Title": "Clock reached max",
-          "Content": "Do you want to delete the clock ?"
-        }
-      }
-    },
     "AgentItem": {
       "Add": "Add item",
       "AddCustom": "Add custom Item",
       "Delete": {
         "Button": "Delete Item",
         "Prompt": {
-          "Title": "Deleting item",
-          "Content": "Do you want to delete this item ?"
+          "Content": "Do you want to delete this item ?",
+          "Title": "Deleting item"
         }
       },
       "Prompt": {
-        "Name": "Item name",
+        "Confirm": "Submit custom item",
         "Consumable": "Is consumable",
-        "Used": "Is used",
+        "Name": "Item name",
         "Title": "Add item",
-        "Confirm": "Submit custom item"
+        "Used": "Is used"
+      }
+    },
+    "Array": {
+      "Add": "Create element to add",
+      "MaxReach": {
+        "Label": "Select element to remove (max amount reached)",
+        "Title": "Max element in array reached"
+      },
+      "Remove": {
+        "Label": "Select element to remove",
+        "Title": "Removing element"
       }
     },
     "Class": {
-      "Delete": {
-        "Button": "Delete class",
-        "Prompt": {
-          "Title": "Removing class",
-          "Content": "Are you sure you want to remove class ?"
-        }
-      },
       "Add": {
         "Button": "Add class",
         "Prompt": {
-          "Title": "Add class",
+          "Confirm": "Choose class",
           "Label": "Class to choose",
-          "Confirm": "Choose class"
+          "Title": "Add class"
+        }
+      },
+      "Delete": {
+        "Button": "Delete class",
+        "Prompt": {
+          "Content": "Are you sure you want to remove class ?",
+          "Title": "Removing class"
         }
       },
       "Edit": {
         "Button": "Edit class"
       }
+    },
+    "Clocks": {
+      "Add": {
+        "Button": "Add clock",
+        "Prompt": {
+          "Content": "Select max value of clock",
+          "Max": "Choose size of clock",
+          "Name": "Name of clock",
+          "Title": "Define clock"
+        }
+      },
+      "Delete": {
+        "Prompt": {
+          "Content": "Do you want to delete the clock ?",
+          "Title": "Clock reached max"
+        }
+      }
+    },
+    "Expand": "Expand",
+    "Value": {
+      "None": "No value"
     }
   },
   "ICONS": {
@@ -115,11 +115,11 @@
     "Agent": {
       "FIELDS": {
         "abilities": {
-          "label": "Abilities",
           "guild": {
-            "null": "No guild",
-            "exist": "Guild of {name}"
-          }
+            "exist": "Guild of {name}",
+            "null": "No guild"
+          },
+          "label": "Abilities"
         },
         "biography": {
           "appearance": {
@@ -136,11 +136,11 @@
           "age": {
             "label": "Age"
           },
-          "culture": {
-            "label": "Culture"
-          },
           "class": {
             "label": "Class"
+          },
+          "culture": {
+            "label": "Culture"
           },
           "gender": {
             "label": "Gender"
@@ -153,41 +153,41 @@
           }
         },
         "inventory": {
-          "usages": {
-            "label": "Usages"
-          },
           "baseItems": {
             "label": "Base Items"
           },
           "classItems": "Class Items",
-          "customItems": "Custom Items",
           "clocks": {
             "label": "Clocks"
+          },
+          "customItems": "Custom Items",
+          "usages": {
+            "label": "Usages"
           }
         },
         "self": {
           "adulthood": {
             "label": "Adulthood"
           },
-          "childhood": {
-            "label": "Childhood"
-          },
           "burden": {
             "label": "Burden"
           },
-          "ideal": {
-            "label": "Ideal"
-          },
-          "virtues": {
-            "label": "Virtues"
-          },
-          "vices": {
-            "label": "Vices"
+          "childhood": {
+            "label": "Childhood"
           },
           "fulfilled": {
             "label": "Fullfilled Virtues"
           },
-          "label": "Core Self"
+          "ideal": {
+            "label": "Ideal"
+          },
+          "label": "Core Self",
+          "vices": {
+            "label": "Vices"
+          },
+          "virtues": {
+            "label": "Virtues"
+          }
         },
         "skills": {
           "canMaster": "Can Master",
@@ -247,11 +247,11 @@
       "Items": {
         "Base": {
           "Blade": "A blade or two",
+          "Cards": "Tarot cards",
           "Charm": "Sleep charm",
           "Documents": "Documents",
-          "Cards": "Tarot cards",
-          "Seal": "Seal of Dioscoria",
-          "Flare": "Signal flare"
+          "Flare": "Signal flare",
+          "Seal": "Seal of Dioscoria"
         }
       }
     },
@@ -396,16 +396,16 @@
     },
     "ControlButtons": {
       "DrawFortune": {
-        "Label": "Draw Fortune cards",
-        "Icon": "fa-solid fa-cards"
+        "Icon": "fa-solid fa-cards",
+        "Label": "Draw Fortune cards"
       },
       "GivePlayerXP": {
-        "Label": "Give to players XP",
-        "Icon": "fas fa-stars"
+        "Icon": "fas fa-stars",
+        "Label": "Give to players XP"
       },
       "ResetUsedItems": {
-        "Label": "Reset all player items and usages",
-        "Icon": "fas fa-arrows-rotate"
+        "Icon": "fas fa-arrows-rotate",
+        "Label": "Reset all player items and usages"
       }
     },
     "Effect": {
@@ -426,9 +426,9 @@
       "Trauma": "Trauma"
     },
     "Items": {
+      "consumable": "Consumable",
       "name": "Name",
-      "used": "Used",
-      "consumable": "Consumable"
+      "used": "Used"
     },
     "Magic": {
       "Proficiency": {
@@ -459,6 +459,27 @@
         }
       }
     },
+    "Self": {
+      "Adulthood": "As an adult, I survived/flourished by",
+      "Childhood": "As a child, I solved problems by",
+      "Core": "Core self",
+      "Negative": "Negative self",
+      "Positive": "Positive self"
+    },
+    "Settings": {
+      "AutoXP": {
+        "Hint": "If magic, virtue and burden automaticaly increase XP after usage.",
+        "Label": "Automatic XP"
+      },
+      "PipDeck": {
+        "Hint": "Pip deck to use inside of this world.",
+        "Label": "Pip Deck"
+      },
+      "VisionDeck": {
+        "Hint": "Vision deck to use inside of this world.",
+        "Label": "Vision Deck"
+      }
+    },
     "SheetMode": {
       "Edit": "Edit",
       "Play": "Play"
@@ -480,62 +501,41 @@
         "skills": "Skills"
       }
     },
-    "Self": {
-      "Negative": "Negative self",
-      "Positive": "Positive self",
-      "Core": "Core self",
-      "Childhood": "As a child, I solved problems by",
-      "Adulthood": "As an adult, I survived/flourished by"
-    },
-    "Settings": {
-      "PipDeck": {
-        "Label": "Pip Deck",
-        "Hint": "Pip deck to use inside of this world."
-      },
-      "VisionDeck": {
-        "Label": "Vision Deck",
-        "Hint": "Vision deck to use inside of this world."
-      },
-      "AutoXP": {
-        "Label": "Automatic XP",
-        "Hint": "If magic, virtue and burden automaticaly increase XP after usage."
-      }
-    },
     "SkillCheck": {
       "CheckConfiguration": {
-        "Title": "Skill check configuration",
-        "CoreLegend": "Core Self modifiers",
-        "IdealConfig": {
-          "Label": "Ideal",
-          "Hint": "Chosen ideal to put into skill check"
-        },
         "BurdenConfig": {
-          "Label": "Burden",
-          "Hint": "Chosen burden to put into skill check"
+          "Hint": "Chosen burden to put into skill check",
+          "Label": "Burden"
         },
+        "CoreLegend": "Core Self modifiers",
+        "CustomMod": {
+          "Hint": "Custom card to draw more or less",
+          "Label": "Custom modifier"
+        },
+        "IdealConfig": {
+          "Hint": "Chosen ideal to put into skill check",
+          "Label": "Ideal"
+        },
+        "Title": "Skill check configuration",
         "ViceConfig": {
-          "Label": "Vice",
-          "Hint": "Chosen vice to put into skill check"
+          "Hint": "Chosen vice to put into skill check",
+          "Label": "Vice"
         },
         "VirtueConfig": {
-          "Label": "Virtue",
-          "Hint": "Chose virtue to put into skill check"
-        },
-        "CustomMod": {
-          "Label": "Custom modifier",
-          "Hint": "Custom card to draw more or less"
+          "Hint": "Chose virtue to put into skill check",
+          "Label": "Virtue"
         }
       },
       "DifficultyConfiguration": {
-        "Title": "Difficulty configuration",
-        "Header": "{name} is asking a {skill} check",
         "CustomCard": "Select custom number of cards, will override difficulty",
         "Difficulty": {
-          "Label": "Select difficulty check",
           "Easy": "Easy",
-          "Medium": "Medium",
-          "Hard": "Hard"
-        }
+          "Hard": "Hard",
+          "Label": "Select difficulty check",
+          "Medium": "Medium"
+        },
+        "Header": "{name} is asking a {skill} check",
+        "Title": "Difficulty configuration"
       }
     },
     "UserConfig": {
