@@ -25,27 +25,27 @@ THI.baseItems = {
     used: false
   },
   charm: {
-    name: "THI.Agent.Items.Base.Charm",
+    name: 'THI.Agent.Items.Base.Charm',
     consumable: true,
     used: false
   },
   documents: {
-    name: "THI.Agent.Items.Base.Documents",
+    name: 'THI.Agent.Items.Base.Documents',
     consumable: true,
     used: false
   },
   cards: {
-    name: "THI.Agent.Items.Base.Cards",
+    name: 'THI.Agent.Items.Base.Cards',
     consumable: false,
     used: false
   },
   seal: {
-    name: "THI.Agent.Items.Base.Seal",
+    name: 'THI.Agent.Items.Base.Seal',
     consumable: false,
     used: false
   },
   flare: {
-    name: "THI.Agent.Items.Base.Flare",
+    name: 'THI.Agent.Items.Base.Flare',
     consumable: true,
     used: false
   }
