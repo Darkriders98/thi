@@ -3,7 +3,7 @@ import THIItem from "../../documents/THIItem.mjs";
 import {addItem, deleteItem} from "../../helpers.mjs";
 import BaseActorSheet from "./api/base-actor-sheet.mjs";
 import SkillCheckConfigurationDialog from "../cards/skill-check-configuration-dialog.mjs";
-import {CreateClockDialog} from "./_module.mjs";
+import CreateClockDialog from "./dialog/create-clock.mjs";
 
 /**
  * Extend the basic ActorSheet with some very simple modifications.
