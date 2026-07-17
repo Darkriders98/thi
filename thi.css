@@ -696,29 +696,29 @@ body {
       }
     }
   }
+}
 
-  .application.thi.skill-check-configuration {
-    .cards[data-application-part="display"] {
-      ul {
-        padding: 0;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        height: 150px;
-        width: auto;
-      }
+.application.thi.skill-check-configuration {
+  .cards[data-application-part="display"] {
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      height: 150px;
+      width: auto;
+    }
 
-      li {
-        position: absolute;
-        left: min(calc(calc(calc(100% - 100px) / calc(var(--max) - 1)) * var(--count)), calc(var(--count) * 80px));
-        width: 100px;
-        height: 150px;
-        z-index: calc(var(--max) - var(--count));
-        img {
-          border-radius: 10px;
-          border: solid black 1px;
-        }
+    li {
+      position: absolute;
+      left: min(calc(calc(calc(100% - 100px) / calc(var(--max) - 1)) * var(--count)), calc(var(--count) * 80px));
+      width: 100px;
+      height: 150px;
+      z-index: calc(var(--max) - var(--count));
+      img {
+        border-radius: 10px;
+        border: solid black 1px;
       }
     }
   }
