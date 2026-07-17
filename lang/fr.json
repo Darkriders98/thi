@@ -2,8 +2,8 @@
   "CARDS": {
     "BaseDeck": {
       "CommonPile": "Tas commun",
-      "PipDeck": "Paquet pip",
-      "VisionDeck": "Paquet de vision"
+      "PipDeck": "Set numéral",
+      "VisionDeck": "Set de vision"
     },
     "CardsFortuneHand": "Main de fortune",
     "Hands": {
@@ -472,12 +472,12 @@
         "Label": "Expérience automatique"
       },
       "PipDeck": {
-        "Hint": "Paquet pip à utiliser dans ce monde",
-        "Label": "Paquet pip"
+        "Hint": "Set numéral à utiliser dans ce monde",
+        "Label": "Set numéral"
       },
       "VisionDeck": {
-        "Hint": "Paquet de vision à utiliser dans ce monde",
-        "Label": "Paquet de vision"
+        "Hint": "Set de vision à utiliser dans ce monde",
+        "Label": "Set de vision"
       }
     },
     "SheetMode": {
