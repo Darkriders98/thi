@@ -332,16 +332,9 @@ export async function addItem(target, systemPath) {
       name: "consumable"
     })
   });
-  const usedForm = foundry.applications.fields.createFormGroup({
-    label: _loc('DOCUMENT.AgentItem.Prompt.Used'),
-    input: foundry.applications.fields.createCheckboxInput({
-      name: "used",
-      initial: false
-    })
-  });
 
   const content = window.document.createElement("div");
-  content.append(nameForm, consumableForm, usedForm);
+  content.append(nameForm, consumableForm);
 
   const data = await foundry.applications.api.DialogV2.input({
     window: {title: _loc('DOCUMENT.AgentItem.Prompt.Title')},
