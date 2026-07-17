@@ -134,21 +134,21 @@ export class AgentSheet extends BaseActorSheet {
     const actor = this.actor;
     switch (partId) {
       case "header":
-        context.field = fields[partId];
+        context.fields = fields[partId].fields;
         context.class = actor.class;
         break;
       case "skills":
       case "biography":
-        context.field = fields[partId];
+        context.fields = fields[partId].fields;
         context.tab = context.tabs[partId];
         break;
       case "inventory":
-        context.field = fields[partId];
+        context.fields = fields[partId].fields;
         context.class = actor.class;
         context.tab = context.tabs[partId];
         break;
       case "abilities":
-        context.field = fields[partId];
+        context.fields = fields[partId].fields;
         context.class = actor.class;
         context.itemTypes = items["ability"];
         context.tab = context.tabs[partId];
@@ -186,7 +186,7 @@ export class AgentSheet extends BaseActorSheet {
             return field.field.name === "virtues";
           }
         });
-        context.field = field;
+        context.fields = field;
         context.itemTypes = [];
         context.tab = context.tabs[partId];
         break;

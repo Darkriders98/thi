@@ -105,17 +105,35 @@
   "background": "",
   "documentTypes": {
     "Actor": {
-      "agent": {}
+      "agent": {
+        "htmlFields": [
+          "appearance",
+          "background",
+          "notes"
+        ]
+      }
     },
     "Combatant": {
       "player": {}
     },
     "Item": {
-      "ability": {},
+      "ability": {
+        "htmlFields": [
+          "description"
+        ]
+      },
       "class": {},
       "contact": {},
-      "magicalprof": {},
-      "magicalsource": {}
+      "magicalprof": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "magicalsource": {
+        "htmlFields": [
+          "description"
+        ]
+      }
     },
     "Cards": {
       "fortuneHand": {}

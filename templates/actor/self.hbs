@@ -1,13 +1,14 @@
 <section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="self">
   <fieldset class="side-fieldset">
     <legend>{{localize 'THI.Self.Negative'}}</legend>
-    {{> thi.field-self-minor field.negative.[0]}}
-    {{> thi.field-self-major field.negative.[1]}}
+    {{log fields}}
+    {{> thi.field-self-minor fields.negative.[0]}}
+    {{> thi.field-self-major fields.negative.[1]}}
   </fieldset>
   <div>
     <fieldset>
       <legend>{{localize 'THI.Self.Core'}}</legend>
-      {{#with field.core.[1]}}
+      {{#with fields.core.[1]}}
         <div>{{localize 'THI.Self.Childhood'}}</div>
         {{#if @root.editable}}
           {{formGroup field value=value}}
@@ -15,7 +16,7 @@
           <div>{{value}}</div>
         {{/if}}
       {{/with}}
-      {{#with field.core.[0]}}
+      {{#with fields.core.[0]}}
         <div>{{localize 'THI.Self.Adulthood'}}</div>
         {{#if @root.editable}}
           {{formGroup field value=value}}
@@ -24,7 +25,7 @@
         {{/if}}
       {{/with}}
     </fieldset>
-    {{#with field.core.[2]}}
+    {{#with fields.core.[2]}}
       <fieldset data-field-path="{{field.fieldPath}}" class="array-field">
         <legend>
           {{field.label}}
@@ -44,7 +45,7 @@
   </div>
   <fieldset class="side-fieldset">
     <legend>{{localize 'THI.Self.Positive'}}</legend>
-    {{> thi.field-self-minor field.positive.[0]}}
-    {{> thi.field-self-major field.positive.[1] redirect=field.core.[2]}}
+    {{> thi.field-self-minor fields.positive.[0]}}
+    {{> thi.field-self-major fields.positive.[1] redirect=fields.core.[2]}}
   </fieldset>
 </section>

@@ -1,6 +1,6 @@
 <section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="inventory">
   <div class="flexcol">
-    {{#with field.fields.[0]}}
+    {{#with fields.[0]}}
       <fieldset class="{{field.name}}">
         <legend>{{field.label}}</legend>
         {{#if @root.editable}}
@@ -13,7 +13,7 @@
       </fieldset>
     {{/with}}
     <div class="agent-item {{#if @root.editable}}flexcol{{else}}flexrow{{/if}}">
-      {{#with field.fields.[1]}}
+      {{#with fields.[1]}}
         <fieldset class="{{field.name}}">
           <legend>{{field.label}}</legend>
           <ul class="items">
@@ -40,7 +40,7 @@
         </fieldset>
       {{/if}}
     </div>
-    {{#with field.fields.[2]}}
+    {{#with fields.[2]}}
       {{#unless (empty value)}}
         <fieldset class="customItems">
           <legend>{{localize 'THI.Agent.FIELDS.inventory.customItems'}}</legend>
@@ -58,7 +58,7 @@
       {{localize 'DOCUMENT.AgentItem.AddCustom'}}
     </button>
   </div>
-  {{#with field.fields.[3]}}
+  {{#with fields.[3]}}
     <fieldset class="{{field.name}}" data-field-path="{{field.fieldPath}}">
       <legend>{{field.label}}</legend>
       <button class="clock" type="button" data-action="addClock">

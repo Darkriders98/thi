@@ -1,15 +1,15 @@
-<section class="standard-form tab scrollable {{ tab.cssClass }}" data-group="primary" data-tab="description">
+<section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="description">
   {{#each fields}}
     {{#if @root.editable}}
       {{formGroup outer.field value=outer.value localize=true}}
     {{else}}
       <div class="description-group">
-        <label {{#if (eq outer.field.name 'description')}}class="description-label"
+        <label {{#if (eq outer.field.name 'description' )}}class="description-label"
           {{/if}}>{{localize outer.field.label}}</label>
         {{#if (ne outer.value "")}}
-        <div class="description-fields">{{{outer.value}}}</div>
+          <div class="description-fields">{{{outer.value}}}</div>
         {{else}}
-        <div class="description-fields">{{localize 'DOCUMENT.Value.None'}}</div>
+          <div class="description-fields">{{localize 'DOCUMENT.Value.None'}}</div>
         {{/if}}
       </div>
     {{/if}}

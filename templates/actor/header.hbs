@@ -21,7 +21,7 @@
                     {{localize 'DOCUMENT.Class.Add.Button'}}
                 </button>
             {{/if}}
-            {{#each field.fields}}
+            {{#each fields}}
                 <div class="{{field.name}}">
                     {{formGroup field value=value}}
                 </div>
@@ -32,7 +32,7 @@
                 <span>{{localize 'TYPES.Item.class'}}</span>
                 <span>{{class.name}}</span>
             </div>
-            {{#each field.fields}}
+            {{#each fields}}
                 <div class="{{field.name}}">
                     <span>{{field.label}}</span>
                     <span>{{value}}</span>
