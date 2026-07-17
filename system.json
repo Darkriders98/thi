@@ -107,9 +107,9 @@
     "Actor": {
       "agent": {
         "htmlFields": [
-          "appearance",
-          "background",
-          "notes"
+          "biography.appearance",
+          "biography.background",
+          "biography.notes"
         ]
       }
     },

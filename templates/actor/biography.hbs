@@ -1,15 +1,16 @@
 <section class="standard-form tab scrollable {{tab.cssClass}}" data-group="primary" data-tab="biography">
   <div class="character">
     {{#with fields.[0]}}
-      {{> thi.field-html field=field value=field.value}}
+    {{log this}}
+      {{> thi.field-html field=field value=value}}
     {{/with}}
     {{#with fields.[1]}}
-      {{> thi.field-html field=field value=field.value}}
+      {{> thi.field-html field=field value=value}}
     {{/with}}
   </div>
   <div class="side">
     {{#with fields.[2]}}
-      {{> thi.field-html field=field value=field.value}}
+      {{> thi.field-html field=field value=value}}
     {{/with}}
   </div>
 </section>
