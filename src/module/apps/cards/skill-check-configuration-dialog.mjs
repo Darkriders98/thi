@@ -179,6 +179,9 @@ export default class SkillCheckConfigurationDialog extends DialogThi {
       else if (this.#currentConfig.burden !== '' || this.#currentConfig.vice !== '') {
         drawNumber = this.#baseCardNumber + 1 + this.#customMod;
       }
+      else {
+        drawNumber = this.#baseCardNumber + this.#customMod;
+      }
     }
     else {
       drawNumber = this.#baseCardNumber + this.#customMod;
