@@ -105,6 +105,7 @@
   "background": "",
   "documentTypes": {
     "Actor": {
+      "adversary": {},
       "agent": {}
     },
     "Combatant": {

@@ -112,6 +112,9 @@
         }
       }
     },
+    "Adversary": {
+      "FIELDS": {}
+    },
     "Agent": {
       "FIELDS": {
         "abilities": {
@@ -486,6 +489,7 @@
     },
     "Sheets": {
       "Labels": {
+        "AdversarySheet": "Fiche d'adversaire THI par défaut",
         "AgentSheet": "Fiche d'agent THI par défaut",
         "ItemSheet": "Fiche d'objet THI par défaut"
       },
@@ -544,6 +548,7 @@
   },
   "TYPES": {
     "Actor": {
+      "adversary": "Adversaire",
       "agent": "Agent"
     },
     "Cards": {

@@ -33,6 +33,13 @@ export function init() {
       makeDefault: true,
       label: "THI.Sheets.Labels.AgentSheet",
     });
+  foundry.documents.collections.Actors.registerSheet(systemID, apps.Actor.AdversarySheet,
+    {
+      types: ["adversary"],
+      makeDefault: true,
+      label: "THI.Sheets.Labels.AdversarySheet"
+    }
+  )
   foundry.documents.collections.Items.registerSheet(systemID, apps.Item.THIItemSheet,
     {
       makeDefault: true,

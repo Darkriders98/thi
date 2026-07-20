@@ -72,37 +72,37 @@ export class AgentSheet extends BaseActorSheet {
   /** @inheritdoc */
   static PARTS = {
     header: {
-      template: systemPath("templates/actor/header.hbs"),
+      template: systemPath("templates/actor/agent/header.hbs"),
     },
     tabs: {
       template: "templates/generic/tab-navigation.hbs",
     },
     skills: {
-      template: systemPath("templates/actor/skills.hbs"),
+      template: systemPath("templates/actor/agent/skills.hbs"),
       scrollable: [""],
     },
     abilities: {
-      template: systemPath("templates/actor/abilities.hbs"),
+      template: systemPath("templates/actor/agent/abilities.hbs"),
       scrollable: [""],
     },
     inventory: {
-      template: systemPath("templates/actor/inventory.hbs"),
+      template: systemPath("templates/actor/agent/inventory.hbs"),
       scrollable: [""]
     },
     magic: {
-      template: systemPath("templates/actor/magic.hbs"),
+      template: systemPath("templates/actor/agent/magic.hbs"),
       scrollable: [""]
     },
     self: {
-      template: systemPath("templates/actor/self.hbs"),
+      template: systemPath("templates/actor/agent/self.hbs"),
       scrollable: [""]
     },
     relations: {
-      template: systemPath("templates/actor/relations.hbs"),
+      template: systemPath("templates/actor/agent/relations.hbs"),
       scrollable: [""]
     },
     biography: {
-      template: systemPath("templates/actor/biography.hbs"),
+      template: systemPath("templates/actor/agent/biography.hbs"),
       scrollable: [""]
     }
   };
