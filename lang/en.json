@@ -534,7 +534,7 @@
           "Label": "Select difficulty check",
           "Medium": "Medium ({cards})"
         },
-        "Header": "{name} is asking a {skill} check",
+        "Header": "{name} is making a {skill} check",
         "Title": "Difficulty configuration"
       }
     },

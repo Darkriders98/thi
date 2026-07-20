@@ -534,7 +534,7 @@
           "Label": "Difficulté",
           "Medium": "Moyenne ({cards})"
         },
-        "Header": "{name} demande un test de {skill}",
+        "Header": "{name} réalise un test de {skill}",
         "Title": "Configuration de la difficulté"
       }
     },
