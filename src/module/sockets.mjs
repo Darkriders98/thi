@@ -70,13 +70,19 @@ export default class THISocketHandler {
       options: [
         {
           value: "easy",
-          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Easy")
+          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Easy", {
+            cards: difficulty.easy
+          })
         }, {
           value: "medium",
-          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Medium")
+          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Medium", {
+            cards: difficulty.medium
+          })
         }, {
           value: "hard",
-          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Hard")
+          label: _loc("THI.SkillCheck.DifficultyConfiguration.Difficulty.Hard", {
+            cards: difficulty.hard
+          })
         }]
     });
     const difficultyForm = foundry.applications.fields.createFormGroup({

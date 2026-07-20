@@ -529,10 +529,10 @@
       "DifficultyConfiguration": {
         "CustomCard": "Select custom number of cards, will override difficulty",
         "Difficulty": {
-          "Easy": "Easy",
-          "Hard": "Hard",
+          "Easy": "Easy ({cards})",
+          "Hard": "Hard ({cards})",
           "Label": "Select difficulty check",
-          "Medium": "Medium"
+          "Medium": "Medium ({cards})"
         },
         "Header": "{name} is asking a {skill} check",
         "Title": "Difficulty configuration"

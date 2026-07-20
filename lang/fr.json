@@ -529,10 +529,10 @@
       "DifficultyConfiguration": {
         "CustomCard": "Sélectionner un nombre personnalisé de carte, sera utilisé à la place de la difficulté",
         "Difficulty": {
-          "Easy": "Facile",
-          "Hard": "Difficile",
+          "Easy": "Facile ({cards})",
+          "Hard": "Difficile ({cards})",
           "Label": "Difficulté",
-          "Medium": "Moyenne"
+          "Medium": "Moyenne ({cards})"
         },
         "Header": "{name} demande un test de {skill}",
         "Title": "Configuration de la difficulté"
